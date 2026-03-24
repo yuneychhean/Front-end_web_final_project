@@ -1,1 +1,26 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@layer components {
+  .glass {
+    background-color: color-mix(in srgb, #1a2329 50%, transparent);
+    backdrop-filter: blur(16px);
+    border: 1px solid color-mix(in srgb, #242b32 50%, transparent);
+  }
+
+  .glass-strong {
+    background-color: color-mix(in srgb, #1a2329 80%, transparent);
+    backdrop-filter: blur(24px);
+    border: 1px solid color-mix(in srgb, #242b32 60%, transparent);
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px color-mix(in srgb, #1ea3cf 50%, transparent);
+  }
+
+  .glow-border {
+    box-shadow:
+      0 0 30px color-mix(in srgb, #1ea3cf 20%, transparent),
+      inset 0 0 20px color-mix(in srgb, #1ea3cf 5%, transparent);
+  }
+}
+
