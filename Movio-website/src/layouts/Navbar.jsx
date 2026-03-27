@@ -15,7 +15,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-transparent py-3 border-b-3  border-b-[#18E3B5] z-50 transition-colors duration-300">
+    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-[#0f1418] py-3 border-b-3  border-b-[#18E3B5] z-50 transition-colors duration-300">
       <nav className="container mx-auto px-3 flex items-center justify-between">
         {/* Logo */}
         <img src={MovioLogo} alt="Movio Logo" className="w-32" />
