@@ -74,7 +74,7 @@ const nextSlide = () => {
   
 
   return (
-    <div className="pt-18 px-2 sm:px-4 sm:pt-20">
+    <div className="pt-18 sm:pt-20">
 
       <section 
         className="relative h-[350px] sm:h-[430px] md:h-[500px] lg:h-screen max-h-[550px] flex items-center overflow-hidden bg-black border-3 border-[#18E3B4] rounded-2xl"

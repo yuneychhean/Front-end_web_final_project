@@ -21,7 +21,7 @@ function MovieCard (props) {
 
           {/* Rating Badge */}
           <div className="absolute top-3 right-3 bg-black/70 rounded-full px-2 py-1 text-sm font-bold text-yellow-400">
-            ★ {props.rating}
+            ★ {props.rating.toFixed(1 , 0)}
           </div>
 
           {/* Favorite Button */}
