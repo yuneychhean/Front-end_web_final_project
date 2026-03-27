@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MovioLogo from "../assets/MovioLogo.png";
 import { Menu, X, Search, Heart, Sun, Moon } from "lucide-react";
 import Button from "../components/Button.jsx";
+import SearchDropdown from "../components/SearchDropdown.jsx";
 
 export const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
@@ -34,7 +35,7 @@ export const Navbar = () => {
         {/* Desktop right side */}
         <div className="hidden md:flex justify-center items-center gap-4">
           <span className="flex items-center justify-center gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
-            <Search className="cursor-pointer hover:text-[#18E3B4] transition-colors" />
+             <SearchDropdown />
             <Heart className="cursor-pointer hover:text-[#18E3B4] transition-colors" />
           </span>
 
@@ -43,20 +44,20 @@ export const Navbar = () => {
 
         {/* Mobile right side */}
         <div className="flex justify-center items-center md:hidden gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
-          <Search
-            size={20}
-            className="cursor-pointer hover:text-[#18E3B4] transition-colors"
-          />
-          <Heart
-            size={20}
-            className="cursor-pointer hover:text-[#18E3B4] transition-colors"
-          />
+          <SearchDropdown/>
+          <button>
+
+            <Heart
+              size={20}
+              className="cursor-pointer hover:text-[#18E3B4] transition-colors"
+            />
+          </button>
 
           <button
-            className="p-2 cursor-pointer"
+            className="cursor-pointer"
             onClick={() => setIsMobileMenu((prev) => !prev)}
           >
-            {isMobileMenu ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenu ? <X className="hover:text-[#18E3B4]" size={24} /> : <Menu className="hover:text-[#18E3B4]" size={22} />}
           </button>
         </div>
       </nav>
