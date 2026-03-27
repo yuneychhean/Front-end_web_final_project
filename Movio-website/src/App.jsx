@@ -1,7 +1,9 @@
 import { BrowserRouter , Routes , Route } from "react-router-dom";
 import Home from "./sections/Home";
 import Navbar from "./layouts/Navbar";
-import Movies from "./layouts/Movies"
+import Movies from "./sections/Movies"
+import Popular from "./layouts/Navbar"
+import Series from './sections/Series'
 import SearchDropdown from "./components/SearchDropdown";
 import MovieCard from "./components/MovieCard";
 
@@ -35,13 +37,13 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/movies" element={<Movies/>}></Route>
           <Route path="/popular" element={<Popular/>}></Route>
+          <Route path="/series" element={<Series/>}></Route>
+          
         </Routes>
       </BrowserRouter>
-      <Home />
       
-      <div className="grid grid-cols-4">
-          <MovieCard {...movie} />
-      </div>
+      
+      
 
 
     </div>

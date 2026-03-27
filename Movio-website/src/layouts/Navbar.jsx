@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom'
 import MovioLogo from "../assets/MovioLogo.png";
 import { Menu, X, Search, Heart, Sun, Moon } from "lucide-react";
 import Button from "../components/Button.jsx";
@@ -8,10 +9,10 @@ export const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#movies", label: "Movies" },
-    { href: "#series", label: "Series" },
-    { href: "#popular", label: "Popular" },
+    { href: "/", label: "Home" },
+    { href: "/movies", label: "Movies" },
+    { href: "/series", label: "Series" },
+    { href: "/popular", label: "Popular" },
   ];
 
   return (
@@ -27,7 +28,7 @@ export const Navbar = () => {
               key={index}
               className="text-sm text-[#f5f5f5] dark:text-[#F5F5F5] hover:text-[#18E3B4] rounded-full hover:bg-[#2f6078]/30 font-semibold px-4 py-2"
             >
-              <a href={link.href}>{link.label}</a>
+              <Link to={link.href}>{link.label}</Link>
             </li>
           ))}
         </ul>
