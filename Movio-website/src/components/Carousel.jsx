@@ -47,31 +47,27 @@ const Carousel = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    if (!isAutoPlaying || isHovered) return;
-    
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev === info.length - 1 ? 0 : prev + 1));
-    }, 3000);
+  if (!isAutoPlaying || isHovered) return;
 
-    return () => clearInterval(interval);
-  }, [info.length, isAutoPlaying, isHovered]);
+  const interval = setInterval(() => {
+    setCurrentIndex((prev) => (prev === info.length - 1 ? 0 : prev + 1));
+  }, 3000);
+
+  return () => clearInterval(interval);
+}, [info.length, isAutoPlaying, isHovered]);
 
   const prevSlide = () => {
-    setIsAutoPlaying(false);
-    setCurrentIndex((prev) => (prev === 0 ? info.length - 1 : prev - 1));
-    setTimeout(() => setIsAutoPlaying(true), 3000);
-  };
+  setCurrentIndex((prev) => (prev === 0 ? info.length - 1 : prev - 1));
+};
 
-  const nextSlide = () => {
-    setIsAutoPlaying(false);
-    setCurrentIndex((prev) => (prev === info.length - 1 ? 0 : prev + 1));
-    setTimeout(() => setIsAutoPlaying(true), 3000);
-  };
+const nextSlide = () => {
+  setCurrentIndex((prev) => (prev === info.length - 1 ? 0 : prev + 1));
+};
 
   const goToSlide = (index) => {
     setIsAutoPlaying(false);
     setCurrentIndex(index);
-    setTimeout(() => setIsAutoPlaying(true), 3000);
+    setTimeout(() => setIsAutoPlaying(true), 2000);
   };
 
   const currentMovie = info[currentIndex];
