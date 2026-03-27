@@ -37,22 +37,35 @@ export const Navbar = () => {
         <div className="hidden md:flex justify-center items-center gap-4">
           <span className="flex items-center justify-center gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
              <SearchDropdown />
-            <Heart className="cursor-pointer hover:text-[#18E3B4] transition-colors" />
+             <Link to='/wishlist'>
+                <Heart className="cursor-pointer hover:text-[#18E3B4] transition-colors" />
+             </Link>
           </span>
 
-          <Button size="md">Login</Button>
+          <Button size="md">
+            
+            <Link to='/login'>
+              Login
+            </Link>
+
+
+          </Button>
         </div>
 
         {/* Mobile right side */}
         <div className="flex justify-center items-center md:hidden gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
           <SearchDropdown/>
-          <button>
-
-            <Heart
-              size={20}
-              className="cursor-pointer hover:text-[#18E3B4] transition-colors"
-            />
-          </button>
+          
+          
+            <button>
+              <Link to='/wishList'>
+                <Heart
+                  size={20}
+                  className="cursor-pointer hover:text-[#18E3B4] transition-colors"
+                />
+              </Link>
+            </button>
+          
 
           <button
             className="cursor-pointer"
@@ -74,18 +87,22 @@ export const Navbar = () => {
             key={index}
             className="py-3 container mx-auto px-6 flex flex-col gap-3 hover:glass-strong hover:bg-[#2f6078]/30 rounded-3xl"
           >
-            <a
-              href={link.href}
+            <Link
+              to={link.href}
               className="text-[#f5f5f5] dark:text-[#f0f2f5] hover:text-[#18E3B4] font-semibold text-lg"
               onClick={() => setIsMobileMenu(false)}
             >
               {link.label}
-            </a>
+            </Link>
           </div>
         ))}
-        <Button size="md" className="w-full mt-4">
-          Login
-        </Button>
+        <Link to='/login'>
+          <Button size="md" className="w-full mt-4">
+          
+              Login
+          </Button>
+        </Link>
+        
       </div>
     </header>
   );

@@ -4,6 +4,8 @@ import Navbar from "./layouts/Navbar";
 import Movies from "./sections/Movies"
 import Popular from "./layouts/Navbar"
 import Series from './sections/Series'
+import Login from './sections/Login'
+import WishList from './sections/WishList'
 import SearchDropdown from "./components/SearchDropdown";
 import MovieCard from "./components/MovieCard";
 
@@ -22,6 +24,8 @@ function App() {
           <Route path="/movies" element={<Movies/>}></Route>
           <Route path="/popular" element={<Popular/>}></Route>
           <Route path="/series" element={<Series/>}></Route>
+          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/wishlist" element={<WishList/>}></Route>
           
         </Routes>
       </BrowserRouter>
