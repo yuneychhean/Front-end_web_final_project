@@ -8,6 +8,7 @@ import Login from './sections/Login'
 import WishList from './sections/WishList'
 import SearchDropdown from "./components/SearchDropdown";
 import MovieCard from "./components/MovieCard";
+import MovieDetail from "./sections/MovieDetail";
 
 
 
@@ -26,6 +27,9 @@ function App() {
           <Route path="/series" element={<Series/>}></Route>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/wishlist" element={<WishList/>}></Route>
+
+          {/* Dynamic route for movie details */}
+          <Route path="/movies/:id" element={<MovieDetail />} />
           
         </Routes>
       </BrowserRouter>
