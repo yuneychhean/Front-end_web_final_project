@@ -6,6 +6,8 @@ import Popular from "./layouts/Navbar"
 import Series from './sections/Series'
 import SearchDropdown from "./components/SearchDropdown";
 import MovieCard from "./components/MovieCard";
+import Footer from "./components/Footer/Footer";
+
 
 
 
@@ -43,7 +45,7 @@ function App() {
       </BrowserRouter>
       
       
-      
+      <Footer/>
 
 
     </div>
