@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Search, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 
 const SearchDropdown = () => {
@@ -197,32 +198,36 @@ const SearchDropdown = () => {
                 ) : searchResults.length > 0 ? (
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {searchResults.map((result) => (
-                      <button
-                        key={result.id}
-                        onClick={() => handleResultClick(result)}
-                        className="flex items-center gap-4 p-4 bg-[#1a1a1c] dark:bg-black/30 hover:bg-[#2f6078]/40 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl group"
-                      >
-                        <div className="w-12 h-16 bg-gradient-to-br from-[#18E3B4]/20 to-transparent rounded-lg flex items-center justify-center overflow-hidden">
-                          {result.image ? (
-                            <img src={result.image} alt={result.title} className="w-full h-full object-cover" />
-                          ) : (
-                            <Search size={20} className="text-[#18E3B4]" />
-                          )}
-                        </div>
-                        <div className="flex-1 text-left">
-                          <p className="text-white font-semibold group-hover:text-[#18E3B4] transition-colors text-lg">
-                            {result.title}
-                          </p>
-                          <div className="flex items-center gap-2 mt-1">
-                            <span className="text-xs text-gray-400">{result.year}</span>
-                            <span className="w-1 h-1 bg-gray-500 rounded-full"></span>
-                            <span className="text-xs text-[#18E3B4]">{result.type}</span>
+
+                      <Link to={`/${result.id}`}>
+                        <button
+                        
+                          key={result.id}
+                          onClick={() => handleResultClick(result)}
+                          className="flex items-center gap-4 p-4 bg-[#1a1a1c] dark:bg-black/30 hover:bg-[#2f6078]/40 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl group"
+                        >
+                          <div className="w-12 h-16 bg-gradient-to-br from-[#18E3B4]/20 to-transparent rounded-lg flex items-center justify-center overflow-hidden">
+                            {result.image ? (
+                              <img src={result.image} alt={result.title} className="w-full h-full object-cover" />
+                            ) : (
+                              <Search size={20} className="text-[#18E3B4]" />
+                            )}
                           </div>
-                        </div>
-                        <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1">
-                          <Search size={16} className="text-[#18E3B4]" />
-                        </div>
-                      </button>
+                          <div className="flex-1 text-left">
+                            <p className="text-white font-semibold group-hover:text-[#18E3B4] transition-colors text-lg">
+                              {result.title}
+                            </p>
+                            <div className="flex items-center gap-2 mt-1">
+                              <span className="text-xs text-gray-400">{result.year}</span>
+                              <span className="w-1 h-1 bg-gray-500 rounded-full"></span>
+                              <span className="text-xs text-[#18E3B4]">{result.type}</span>
+                            </div>
+                          </div>
+                          <div className="opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-1">
+                            <Search size={16} className="text-[#18E3B4]" />
+                          </div>
+                        </button>
+                        </Link>
                     ))}
                   </div>
                 ) : searchTerm ? (

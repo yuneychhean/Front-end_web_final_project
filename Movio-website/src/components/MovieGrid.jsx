@@ -213,44 +213,9 @@ function MovieGrid({ movies, title }) {
         ))}
       </div>
 
-      {/* Page Indicators with animated transitions */}
-      {totalPages > 1 && (
-        <div className="flex justify-center gap-2 mt-6">
-          {Array.from({ length: totalPages }).map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => {
-                if (!isAnimating && idx !== currentIndex) {
-                  setIsAnimating(true);
-                  setCurrentIndex(idx);
-                  updateScrollPosition(idx);
-                  setTimeout(() => {
-                    setIsAnimating(false);
-                  }, 500);
-                }
-              }}
-              disabled={isAnimating}
-              className={`
-                transition-all duration-500 rounded-full
-                focus:outline-none focus:ring-2 focus:ring-blue-400
-                ${currentIndex === idx 
-                  ? 'w-6 md:w-8 h-2 bg-gradient-to-r from-blue-500 to-purple-500' 
-                  : 'w-2 h-2 bg-gray-400 hover:bg-gray-500 hover:scale-125'
-                }
-                ${isAnimating ? 'pointer-events-none' : ''}
-              `}
-              aria-label={`Go to page ${idx + 1}`}
-            />
-          ))}
-        </div>
-      )}
+      
 
-      {/* Optional: Page Counter with animation */}
-      {totalPages > 1 && (
-        <div className="text-center text-sm text-gray-500 mt-2 transition-all duration-300">
-          Page {currentIndex + 1} of {totalPages}
-        </div>
-      )}
+    
     </div>
   )
 }

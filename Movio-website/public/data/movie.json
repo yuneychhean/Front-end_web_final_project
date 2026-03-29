@@ -8,11 +8,15 @@
     "rating": 7.4,
     "duration": "2h 13m",
     "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, finding himself on the trail of a new menace prowling the skies of New York City.",
-    "cast": ["Tom Holland", "Michael Keaton", "Robert Downey Jr."],
+    "cast": [
+      { "name": "Tom Holland", "img": "" },
+      { "name": "Michael Keaton", "img": "" },
+      { "name": "Robert Downey Jr.", "img": "" }
+    ],
     "director": "Jon Watts",
     "image": "../poster/1.png",
     "banner": "../banner/1.png",
-    "trailer" : "DiTECkLZ8HM"
+    "trailer": "DiTECkLZ8HM"
   },
   {
     "id": 2,
@@ -23,10 +27,15 @@
     "rating": 7.4,
     "duration": "2h 9m",
     "description": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
-    "cast": ["Tom Holland", "Samuel L. Jackson", "Jake Gyllenhaal"],
+    "cast": [
+      { "name": "Tom Holland", "img": "" },
+      { "name": "Samuel L. Jackson", "img": "" },
+      { "name": "Jake Gyllenhaal", "img": "" }
+    ],
     "director": "Jon Watts",
     "image": "../poster/2.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/2.png",
+    "trailer": "Nt9L1jCKGnE"
   },
   {
     "id": 3,
@@ -37,10 +46,15 @@
     "rating": 8.8,
     "duration": "20m per ep",
     "description": "Wang Lin is a very smart boy with loving parents. Although he and his parents are not cultivators, he has always had the dream of becoming one.",
-    "cast": ["Shi Ze Kun", "Lin Mao", "Feng Sheng"],
+    "cast": [
+      { "name": "Shi Ze Kun", "img": "" },
+      { "name": "Lin Mao", "img": "" },
+      { "name": "Feng Sheng", "img": "" }
+    ],
     "director": "Unknown",
     "image": "../poster/3.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/3.png",
+    "trailer": "IcmzYx2eNTg"
   },
   {
     "id": 4,
@@ -51,10 +65,14 @@
     "rating": 8.5,
     "duration": "20m per ep",
     "description": "Ten thousand years after the founding of the Tang Sect, the Tang Sect has declined. A new generation of proud talents has emerged.",
-    "cast": ["Liang Da Wei", "Su Shang Qing"],
+    "cast": [
+      { "name": "Liang Da Wei", "img": "" },
+      { "name": "Su Shang Qing", "img": "" }
+    ],
     "director": "Shen Leping",
     "image": "../poster/4.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/4.png",
+    "trailer": "SV4vzjmJIlA"
   },
   {
     "id": 5,
@@ -65,10 +83,15 @@
     "rating": 9.0,
     "duration": "2h 32m",
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "cast": [
+      { "name": "Christian Bale", "img": "" },
+      { "name": "Heath Ledger", "img": "" },
+      { "name": "Aaron Eckhart", "img": "" }
+    ],
     "director": "Christopher Nolan",
     "image": "../poster/5.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/5.png",
+    "trailer": "EXeTwQWrcwY"
   },
   {
     "id": 6,
@@ -79,10 +102,15 @@
     "rating": 8.8,
     "duration": "2h 28m",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "cast": [
+      { "name": "Leonardo DiCaprio", "img": "" },
+      { "name": "Joseph Gordon-Levitt", "img": "" },
+      { "name": "Elliot Page", "img": "" }
+    ],
     "director": "Christopher Nolan",
     "image": "../poster/6.png",
-    "banner": "https://via.paceholder.com/1280x720"
+    "banner": "../banner/6.png",
+    "trailer": "YoHD9XEInc0"
   },
   {
     "id": 7,
@@ -93,10 +121,15 @@
     "rating": 9.1,
     "duration": "24m per ep",
     "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
-    "cast": ["Yuki Kaji", "Yui Ishikawa", "Marina Inoue"],
+    "cast": [
+      { "name": "Yuki Kaji", "img": "" },
+      { "name": "Yui Ishikawa", "img": "" },
+      { "name": "Marina Inoue", "img": "" }
+    ],
     "director": "Tetsurō Araki",
     "image": "../poster/7.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/7.png",
+    "trailer": "M_OauHnAFc8"
   },
   {
     "id": 8,
@@ -106,11 +139,16 @@
     "genre": ["Animation", "Action", "Adventure"],
     "rating": 8.7,
     "duration": "24m per ep",
-    "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
-    "cast": ["Natsuki Hanae", "Akari Kito", "Hiro Shimono"],
+    "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly.",
+    "cast": [
+      { "name": "Natsuki Hanae", "img": "" },
+      { "name": "Akari Kito", "img": "" },
+      { "name": "Hiro Shimono", "img": "" }
+    ],
     "director": "Haruo Sotozaki",
     "image": "../poster/8.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/8.png",
+    "trailer": "VQGCKyvzIM4"
   },
   {
     "id": 9,
@@ -120,11 +158,16 @@
     "genre": ["Action", "Crime", "Thriller"],
     "rating": 7.7,
     "duration": "2h 49m",
-    "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.",
-    "cast": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"],
+    "description": "John Wick uncovers a path to defeating The High Table.",
+    "cast": [
+      { "name": "Keanu Reeves", "img": "" },
+      { "name": "Donnie Yen", "img": "" },
+      { "name": "Bill Skarsgård", "img": "" }
+    ],
     "director": "Chad Stahelski",
     "image": "../poster/9.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/9.png",
+    "trailer": "qEVUtrk8_B4"
   },
   {
     "id": 10,
@@ -134,10 +177,15 @@
     "genre": ["Biography", "Drama", "History"],
     "rating": 8.4,
     "duration": "3h 0m",
-    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
-    "cast": ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+    "description": "The story of American scientist J. Robert Oppenheimer.",
+    "cast": [
+      { "name": "Cillian Murphy", "img": "" },
+      { "name": "Emily Blunt", "img": "" },
+      { "name": "Matt Damon", "img": "" }
+    ],
     "director": "Christopher Nolan",
     "image": "../poster/10.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/10.png",
+    "trailer": "uYPbbksJxIg"
   }
 ]
