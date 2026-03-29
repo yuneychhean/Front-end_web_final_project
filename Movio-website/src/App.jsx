@@ -29,7 +29,7 @@ function App() {
           <Route path="/wishlist" element={<WishList/>}></Route>
 
           {/* Dynamic route for movie details */}
-          <Route path="/movies/:id" element={<MovieDetail />} />
+          <Route path="/:id" element={<MovieDetail />} />
           
         </Routes>
       </BrowserRouter>

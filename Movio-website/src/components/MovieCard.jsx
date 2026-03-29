@@ -1,9 +1,10 @@
+// components/MovieCard.jsx
 import { Link } from "react-router-dom";
-import {Heart } from 'lucide-react'
+import { Heart } from 'lucide-react';
 
-function MovieCard (props) {
+function MovieCard(props) {
   return (
-    <a>
+    <Link to={`/${props.id}`} state={{ movie: props }}>
       <div className="group relative h-full cursor-pointer">
         
         {/* Image Container */}
@@ -12,7 +13,7 @@ function MovieCard (props) {
           {/* Poster */}
           <img
             src={props.image}
-            alt={props.image}
+            alt={props.title}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           />
 
@@ -21,14 +22,20 @@ function MovieCard (props) {
 
           {/* Rating Badge */}
           <div className="absolute top-3 right-3 bg-black/70 rounded-full px-2 py-1 text-sm font-bold text-yellow-400">
-            ★ {props.rating.toFixed(1 , 0)}
+            ★ {props.rating.toFixed(1)}
           </div>
 
           {/* Favorite Button */}
           <button
             className="absolute bottom-3 right-3 p-2 bg-[#18E3B5] hover:bg-[#65ffdb] rounded-full transition-colors opacity-0 group-hover:opacity-100 hover:scale-110"
+            onClick={(e) => {
+              e.preventDefault(); // Prevent navigation when clicking favorite button
+              e.stopPropagation(); // Stop event from bubbling
+              // Add to wishlist logic here
+              console.log("Added to wishlist:", props.title);
+            }}
           >
-            <Heart/>
+            <Heart size={16} />
           </button>
         </div>
 
@@ -43,19 +50,17 @@ function MovieCard (props) {
           </p>
 
           <div className="flex flex-wrap gap-1 mt-2">
-            {props.genre.map(type =>(
-                <span className="text-xs px-2 py-1 bg-gray-800 text-gray-400 rounded">
-                    {type}
-                </span>
+            {props.genre?.map((type, index) => (
+              <span key={index} className="text-xs px-2 py-1 bg-gray-800 text-gray-400 rounded">
+                {type}
+              </span>
             ))}
-            
-            
           </div>
         </div>
 
       </div>
-    </a>
+    </Link>
   );
 };
 
-export default MovieCard
+export default MovieCard;
