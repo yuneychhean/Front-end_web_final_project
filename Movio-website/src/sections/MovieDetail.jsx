@@ -389,7 +389,7 @@ const MovieDetail = () => {
               <div className="space-y-3">
                 <div className="flex justify-between items-center py-3 border-b border-white/10">
                   <span className="text-white/60">Director</span>
-                  <span className="text-white font-medium">{movie.director || "TBA"}</span>
+                  <span className="text-white font-medium">{movie.director.name || "TBA"}</span>
                 </div>
                 <div className="flex justify-between items-center py-3 border-b border-white/10">
                   <span className="text-white/60">Release Year</span>
@@ -448,10 +448,13 @@ const MovieDetail = () => {
                   {movie.cast.map((actor, idx) => (
                     <div key={idx} className="text-center group cursor-pointer p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition-all">
                       <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-[#18E3B4]/20 to-transparent flex items-center justify-center mb-3 overflow-hidden group-hover:scale-105 transition-all duration-300">
-                        <Users size={40} className="text-white/40 group-hover:text-[#18E3B4] transition-colors" />
+                        {
+                          actor.img == '' ? <User/> : <img src={actor.img} alt={actor.img} />
+
+                        }
                       </div>
                       <p className="text-white font-semibold text-sm group-hover:text-[#18E3B4] transition-colors truncate">
-                        {actor}
+                        {actor.name}
                       </p>
                       <p className="text-white/40 text-xs">Actor</p>
                     </div>
@@ -471,10 +474,12 @@ const MovieDetail = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                   <div className="text-center group cursor-pointer p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition-all">
                     <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-[#18E3B4]/20 to-transparent flex items-center justify-center mb-3 overflow-hidden group-hover:scale-105 transition-all duration-300">
-                      <User size={40} className="text-white/40 group-hover:text-[#18E3B4] transition-colors" />
+                      {
+                        movie.director.name == "Unknow" ? <User/> : <img src={movie.director.img} alt={movie.director.img} />
+                      }
                     </div>
                     <p className="text-white font-semibold text-sm group-hover:text-[#18E3B4] transition-colors truncate">
-                      {movie.director}
+                      {movie.director.name}
                     </p>
                     <p className="text-white/40 text-xs">Director</p>
                   </div>

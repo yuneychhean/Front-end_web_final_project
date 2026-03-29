@@ -9,11 +9,11 @@
     "duration": "2h 13m",
     "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, finding himself on the trail of a new menace prowling the skies of New York City.",
     "cast": [
-      { "name": "Tom Holland", "img": "" },
-      { "name": "Michael Keaton", "img": "" },
-      { "name": "Robert Downey Jr.", "img": "" }
+      { "name": "Tom Holland", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/960px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg" },
+      { "name": "Zendaya", "img": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/68bda73fa047e2001d12f38f.jpg" },
+      { "name": "Robert Downey Jr.", "img": "https://quadro.burda-forward.de/ctf/abd06a60-ec05-4b5d-ab77-d933b694875d.1c18586c-dbf4-42be-b8ba-30bb8719d72b.jpeg?im=RegionOfInterestCrop=(480,480),regionOfInterest=(1459,2141)&hash=265ed95c41ca0353057b4a112fb739cf2a7308c801da87546ce27dd79e31b661" }
     ],
-    "director": "Jon Watts",
+    "director": { "name": "Jon Watts", "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRIJNH_AuTRSUc8S2qw9bE1bxEetzasjjrSlQClIohGuBv2omtl3Ls3YlfatBajcovzUDliIOiyTeDCHRY" },
     "image": "../poster/1.png",
     "banner": "../banner/1.png",
     "trailer": "DiTECkLZ8HM"
@@ -28,11 +28,11 @@
     "duration": "2h 9m",
     "description": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
     "cast": [
-      { "name": "Tom Holland", "img": "" },
-      { "name": "Samuel L. Jackson", "img": "" },
-      { "name": "Jake Gyllenhaal", "img": "" }
+      { "name": "Tom Holland", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/960px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg" },
+      { "name": "Samuel L. Jackson", "img": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Jake Gyllenhaal", "img": "https://m.media-amazon.com/images/M/MV5BNjA0MTU2NDY3MF5BMl5BanBnXkFtZTgwNDU4ODkzMzE@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": "Jon Watts",
+    "director": { "name": "Jon Watts", "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRIJNH_AuTRSUc8S2qw9bE1bxEetzasjjrSlQClIohGuBv2omtl3Ls3YlfatBajcovzUDliIOiyTeDCHRY" },
     "image": "../poster/2.png",
     "banner": "../banner/2.png",
     "trailer": "Nt9L1jCKGnE"
@@ -47,11 +47,11 @@
     "duration": "20m per ep",
     "description": "Wang Lin is a very smart boy with loving parents. Although he and his parents are not cultivators, he has always had the dream of becoming one.",
     "cast": [
-      { "name": "Shi Ze Kun", "img": "" },
+      { "name": "Shi Ze Kun", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxOzOlhKmH4rKxcyDygu6CyKvO8RI86I1fQ&s" },
       { "name": "Lin Mao", "img": "" },
       { "name": "Feng Sheng", "img": "" }
     ],
-    "director": "Unknown",
+    "director": { "name": "Unknown", "img": "" },
     "image": "../poster/3.png",
     "banner": "../banner/3.png",
     "trailer": "IcmzYx2eNTg"
@@ -69,7 +69,7 @@
       { "name": "Liang Da Wei", "img": "" },
       { "name": "Su Shang Qing", "img": "" }
     ],
-    "director": "Shen Leping",
+    "director": { "name": "Shen Leping", "img": "" },
     "image": "../poster/4.png",
     "banner": "../banner/4.png",
     "trailer": "SV4vzjmJIlA"
@@ -88,7 +88,7 @@
       { "name": "Heath Ledger", "img": "" },
       { "name": "Aaron Eckhart", "img": "" }
     ],
-    "director": "Christopher Nolan",
+    "director": { "name": "Christopher Nolan", "img": "" },
     "image": "../poster/5.png",
     "banner": "../banner/5.png",
     "trailer": "EXeTwQWrcwY"
@@ -107,7 +107,7 @@
       { "name": "Joseph Gordon-Levitt", "img": "" },
       { "name": "Elliot Page", "img": "" }
     ],
-    "director": "Christopher Nolan",
+    "director": { "name": "Christopher Nolan", "img": "" },
     "image": "../poster/6.png",
     "banner": "../banner/6.png",
     "trailer": "YoHD9XEInc0"
@@ -126,7 +126,7 @@
       { "name": "Yui Ishikawa", "img": "" },
       { "name": "Marina Inoue", "img": "" }
     ],
-    "director": "Tetsurō Araki",
+    "director": { "name": "Tetsurō Araki", "img": "" },
     "image": "../poster/7.png",
     "banner": "../banner/7.png",
     "trailer": "M_OauHnAFc8"
@@ -145,7 +145,7 @@
       { "name": "Akari Kito", "img": "" },
       { "name": "Hiro Shimono", "img": "" }
     ],
-    "director": "Haruo Sotozaki",
+    "director": { "name": "Haruo Sotozaki", "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSbI0W6QOpHHfyIhwhNdLwh-ocwiAvl_O3URjylOyPe6KDsyH5fb4LdWs6_nalLV-SylEkmtYfg-B68r8Q" },
     "image": "../poster/8.png",
     "banner": "../banner/8.png",
     "trailer": "VQGCKyvzIM4"
@@ -164,7 +164,7 @@
       { "name": "Donnie Yen", "img": "" },
       { "name": "Bill Skarsgård", "img": "" }
     ],
-    "director": "Chad Stahelski",
+    "director": { "name": "Chad Stahelski", "img": "" },
     "image": "../poster/9.png",
     "banner": "../banner/9.png",
     "trailer": "qEVUtrk8_B4"
@@ -177,15 +177,585 @@
     "genre": ["Biography", "Drama", "History"],
     "rating": 8.4,
     "duration": "3h 0m",
-    "description": "The story of American scientist J. Robert Oppenheimer.",
+    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
     "cast": [
       { "name": "Cillian Murphy", "img": "" },
       { "name": "Emily Blunt", "img": "" },
       { "name": "Matt Damon", "img": "" }
     ],
-    "director": "Christopher Nolan",
+    "director": { "name": "Christopher Nolan", "img": "" },
     "image": "../poster/10.png",
     "banner": "../banner/10.png",
     "trailer": "uYPbbksJxIg"
+  },
+  {
+    "id": 11,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 8.4,
+    "duration": "3h 1m",
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. The Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
+    "cast": [
+      { "name": "Robert Downey Jr.", "img": "" },
+      { "name": "Chris Evans", "img": "" },
+      { "name": "Mark Ruffalo", "img": "" }
+    ],
+    "director": { "name": "Anthony Russo", "img": "" },
+    "image": "../poster/11.png",
+    "banner": "../banner/11.png",
+    "trailer": "TcMBFSGVi1c"
+  },
+  {
+    "id": 12,
+    "title": "Interstellar",
+    "year": 2014,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.7,
+    "duration": "2h 49m",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth faces a catastrophic environmental collapse.",
+    "cast": [
+      { "name": "Matthew McConaughey", "img": "" },
+      { "name": "Anne Hathaway", "img": "" },
+      { "name": "Jessica Chastain", "img": "" }
+    ],
+    "director": { "name": "Christopher Nolan", "img": "" },
+    "image": "../poster/12.png",
+    "banner": "../banner/12.png",
+    "trailer": "zSWdZVtXT7E"
+  },
+  {
+    "id": 13,
+    "title": "Breaking Bad",
+    "year": 2008,
+    "type": "Series",
+    "genre": ["Crime", "Drama", "Thriller"],
+    "rating": 9.5,
+    "duration": "47m per ep",
+    "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
+    "cast": [
+      { "name": "Bryan Cranston", "img": "" },
+      { "name": "Aaron Paul", "img": "" },
+      { "name": "Anna Gunn", "img": "" }
+    ],
+    "director": { "name": "Vince Gilligan", "img": "" },
+    "image": "../poster/13.png",
+    "banner": "../banner/13.png",
+    "trailer": "HhesaQXLuRY"
+  },
+  {
+    "id": 14,
+    "title": "One Piece",
+    "year": 1999,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.9,
+    "duration": "24m per ep",
+    "description": "Monkey D. Luffy sets off on a journey to find the legendary treasure known as the 'One Piece' and become the Pirate King.",
+    "cast": [
+      { "name": "Mayumi Tanaka", "img": "" },
+      { "name": "Kazuya Nakai", "img": "" },
+      { "name": "Akemi Okamura", "img": "" }
+    ],
+    "director": { "name": "Kōnosuke Uda", "img": "" },
+    "image": "../poster/14.png",
+    "banner": "../banner/14.png",
+    "trailer": "MCjMCKMlsq8"
+  },
+  {
+    "id": 15,
+    "title": "Jujutsu Kaisen",
+    "year": 2020,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Fantasy"],
+    "rating": 8.7,
+    "duration": "24m per ep",
+    "description": "A boy swallows a cursed talisman — the finger of a Demon — and becomes part of it, leading him to fight demons alongside jujutsu sorcerers.",
+    "cast": [
+      { "name": "Junya Enoki", "img": "" },
+      { "name": "Yūichi Nakamura", "img": "" },
+      { "name": "Asami Seto", "img": "" }
+    ],
+    "director": { "name": "Sunghoo Park", "img": "" },
+    "image": "../poster/15.png",
+    "banner": "../banner/15.png",
+    "trailer": "pkKu9hLT-t8"
+  },
+  {
+    "id": 16,
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 8.3,
+    "duration": "2h 28m",
+    "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+    "cast": [
+      { "name": "Tom Holland", "img": "" },
+      { "name": "Zendaya", "img": "" },
+      { "name": "Benedict Cumberbatch", "img": "" }
+    ],
+    "director": { "name": "Jon Watts", "img": "" },
+    "image": "../poster/16.png",
+    "banner": "../banner/16.png",
+    "trailer": "JfVOs4VSpmA"
+  },
+  {
+    "id": 17,
+    "title": "Dune",
+    "year": 2021,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.0,
+    "duration": "2h 35m",
+    "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+    "cast": [
+      { "name": "Timothée Chalamet", "img": "" },
+      { "name": "Rebecca Ferguson", "img": "" },
+      { "name": "Oscar Isaac", "img": "" }
+    ],
+    "director": { "name": "Denis Villeneuve", "img": "" },
+    "image": "../poster/17.png",
+    "banner": "../banner/17.png",
+    "trailer": "n9xhJrPXop4"
+  },
+  {
+    "id": 18,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.5,
+    "duration": "2h 46m",
+    "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he must prevent a terrible future.",
+    "cast": [
+      { "name": "Timothée Chalamet", "img": "" },
+      { "name": "Zendaya", "img": "" },
+      { "name": "Austin Butler", "img": "" }
+    ],
+    "director": { "name": "Denis Villeneuve", "img": "" },
+    "image": "../poster/18.png",
+    "banner": "../banner/18.png",
+    "trailer": "Way9Dexny3w"
+  },
+  {
+    "id": 19,
+    "title": "Naruto: Shippuden",
+    "year": 2007,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.7,
+    "duration": "23m per ep",
+    "description": "Naruto Uzumaki, now two and a half years older, makes a heroic return and continues on his mission to rescue his friend Sasuke and protect his village from the evil Akatsuki organization.",
+    "cast": [
+      { "name": "Junko Takeuchi", "img": "" },
+      { "name": "Chie Nakamura", "img": "" },
+      { "name": "Showtaro Morikubo", "img": "" }
+    ],
+    "director": { "name": "Hayato Date", "img": "" },
+    "image": "../poster/19.png",
+    "banner": "../banner/19.png",
+    "trailer": "KDifGxImImA"
+  },
+  {
+    "id": 20,
+    "title": "The Batman",
+    "year": 2022,
+    "type": "Movie",
+    "genre": ["Action", "Crime", "Drama"],
+    "rating": 7.8,
+    "duration": "2h 56m",
+    "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "cast": [
+      { "name": "Robert Pattinson", "img": "" },
+      { "name": "Zoë Kravitz", "img": "" },
+      { "name": "Paul Dano", "img": "" }
+    ],
+    "director": { "name": "Matt Reeves", "img": "" },
+    "image": "../poster/20.png",
+    "banner": "../banner/20.png",
+    "trailer": "mqqft2x_Aa4"
+  },
+  {
+    "id": 21,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 9.1,
+    "duration": "24m per ep",
+    "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes wrong, leaving them in damaged physical forms.",
+    "cast": [
+      { "name": "Vic Mignogna", "img": "" },
+      { "name": "Maxey Whitehead", "img": "" },
+      { "name": "Travis Willingham", "img": "" }
+    ],
+    "director": { "name": "Yasuhiro Irie", "img": "" },
+    "image": "../poster/21.png",
+    "banner": "../banner/21.png",
+    "trailer": "SizOHAbZ5Xk"
+  },
+  {
+    "id": 22,
+    "title": "Black Clover",
+    "year": 2017,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Fantasy"],
+    "rating": 8.2,
+    "duration": "23m per ep",
+    "description": "Asta and Yuno were abandoned at the same church on the same day. Raised together, they came to know of the Wizard King — a title given to the strongest mage in the kingdom — and promised that they would compete against each other for the position.",
+    "cast": [
+      { "name": "Gakuto Kajiwara", "img": "" },
+      { "name": "Nobunaga Shimazaki", "img": "" },
+      { "name": "Konomi Fujimura", "img": "" }
+    ],
+    "director": { "name": "Tatsuya Yoshihara", "img": "" },
+    "image": "../poster/22.png",
+    "banner": "../banner/22.png",
+    "trailer": "4Q8UqAUaFtk"
+  },
+  {
+    "id": 23,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Comedy"],
+    "rating": 7.9,
+    "duration": "2h 30m",
+    "description": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and protect one of their own. A mission that could mean the end of the Guardians if not successful.",
+    "cast": [
+      { "name": "Chris Pratt", "img": "" },
+      { "name": "Zoe Saldaña", "img": "" },
+      { "name": "Bradley Cooper", "img": "" }
+    ],
+    "director": { "name": "James Gunn", "img": "" },
+    "image": "../poster/23.png",
+    "banner": "../banner/23.png",
+    "trailer": "u3V5KDHRQvk"
+  },
+  {
+    "id": 24,
+    "title": "Vinland Saga",
+    "year": 2019,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.8,
+    "duration": "24m per ep",
+    "description": "Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage.",
+    "cast": [
+      { "name": "Yuto Uemura", "img": "" },
+      { "name": "Naoya Uchida", "img": "" },
+      { "name": "Hiroki Yasumoto", "img": "" }
+    ],
+    "director": { "name": "Shūhei Yabuta", "img": "" },
+    "image": "../poster/24.png",
+    "banner": "../banner/24.png",
+    "trailer": "vFrjMq4aL-g"
+  },
+  {
+    "id": 25,
+    "title": "Gladiator II",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rating": 7.1,
+    "duration": "2h 28m",
+    "description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome.",
+    "cast": [
+      { "name": "Paul Mescal", "img": "" },
+      { "name": "Pedro Pascal", "img": "" },
+      { "name": "Denzel Washington", "img": "" }
+    ],
+    "director": { "name": "Ridley Scott", "img": "" },
+    "image": "../poster/25.png",
+    "banner": "../banner/25.png",
+    "trailer": "4flDCZKqlAk"
+  },
+  {
+    "id": 26,
+    "title": "Chainsaw Man",
+    "year": 2022,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Fantasy"],
+    "rating": 8.5,
+    "duration": "24m per ep",
+    "description": "Denji is a young man trapped in poverty, working as a devil hunter to pay off his deceased father's debt to the yakuza. After being killed and reborn as the Chainsaw Man, he joins a government agency to fight devils.",
+    "cast": [
+      { "name": "Kikunosuke Toya", "img": "" },
+      { "name": "Tomori Kusunoki", "img": "" },
+      { "name": "Fairouz Ai", "img": "" }
+    ],
+    "director": { "name": "Ryū Nakayama", "img": "" },
+    "image": "../poster/26.png",
+    "banner": "../banner/26.png",
+    "trailer": "dRBqXim8ixs"
+  },
+  {
+    "id": 27,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "type": "Movie",
+    "genre": ["Action", "Drama"],
+    "rating": 8.3,
+    "duration": "2h 11m",
+    "description": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
+    "cast": [
+      { "name": "Tom Cruise", "img": "" },
+      { "name": "Jennifer Connelly", "img": "" },
+      { "name": "Miles Teller", "img": "" }
+    ],
+    "director": { "name": "Joseph Kosinski", "img": "" },
+    "image": "../poster/27.png",
+    "banner": "../banner/27.png",
+    "trailer": "qSqVVswa420"
+  },
+  {
+    "id": 28,
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 9.0,
+    "duration": "23m per ep",
+    "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and associates, he seeks out his missing father, who is a Hunter himself.",
+    "cast": [
+      { "name": "Megumi Han", "img": "" },
+      { "name": "Mariya Ise", "img": "" },
+      { "name": "Cristina Valenzuela", "img": "" }
+    ],
+    "director": { "name": "Hiroshi Kōjina", "img": "" },
+    "image": "../poster/28.png",
+    "banner": "../banner/28.png",
+    "trailer": "D6Bh2LNu0iE"
+  },
+  {
+    "id": 29,
+    "title": "Mission: Impossible — Dead Reckoning",
+    "year": 2023,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Thriller"],
+    "rating": 7.7,
+    "duration": "2h 43m",
+    "description": "Ethan Hunt and his IMF team must track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands.",
+    "cast": [
+      { "name": "Tom Cruise", "img": "" },
+      { "name": "Hayley Atwell", "img": "" },
+      { "name": "Ving Rhames", "img": "" }
+    ],
+    "director": { "name": "Christopher McQuarrie", "img": "" },
+    "image": "../poster/29.png",
+    "banner": "../banner/29.png",
+    "trailer": "avz_YoOAMto"
+  },
+  {
+    "id": 30,
+    "title": "Dragon Ball Super",
+    "year": 2015,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.1,
+    "duration": "24m per ep",
+    "description": "After the defeat of Majin Buu, a new power awakens and threatens the universe. Goku and his friends must once again take on the challenge of facing extraordinary foes and god-level enemies.",
+    "cast": [
+      { "name": "Masako Nozawa", "img": "" },
+      { "name": "Ryō Horikawa", "img": "" },
+      { "name": "Hiromi Tsuru", "img": "" }
+    ],
+    "director": { "name": "Kimitoshi Chioka", "img": "" },
+    "image": "../poster/30.png",
+    "banner": "../banner/30.png",
+    "trailer": "FItIoHjQmKo"
+  },
+  {
+    "id": 31,
+    "title": "The Avengers",
+    "year": 2012,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 8.0,
+    "duration": "2h 23m",
+    "description": "Earth's mightiest heroes must come together and learn to fight as a team to stop the mischievous Loki and his alien army from enslaving humanity.",
+    "cast": [
+      { "name": "Robert Downey Jr.", "img": "" },
+      { "name": "Chris Evans", "img": "" },
+      { "name": "Scarlett Johansson", "img": "" }
+    ],
+    "director": { "name": "Joss Whedon", "img": "" },
+    "image": "../poster/31.png",
+    "banner": "../banner/31.png",
+    "trailer": "eOrNdBpGMv8"
+  },
+  {
+    "id": 32,
+    "title": "Squid Game",
+    "year": 2021,
+    "type": "Series",
+    "genre": ["Action", "Drama", "Mystery"],
+    "rating": 8.0,
+    "duration": "32-63m per ep",
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
+    "cast": [
+      { "name": "Lee Jung-jae", "img": "" },
+      { "name": "Park Hae-soo", "img": "" },
+      { "name": "Wi Ha-jun", "img": "" }
+    ],
+    "director": { "name": "Hwang Dong-hyuk", "img": "" },
+    "image": "../poster/32.png",
+    "banner": "../banner/32.png",
+    "trailer": "oqxAJKy0ii4"
+  },
+  {
+    "id": 33,
+    "title": "Solo Leveling",
+    "year": 2024,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Fantasy"],
+    "rating": 8.4,
+    "duration": "24m per ep",
+    "description": "In a world where hunters — humans who possess magical abilities — must battle deadly monsters to protect the human race, Sung Jinwoo, the world's weakest hunter, decides to risk his life and enters a high-level dungeon.",
+    "cast": [
+      { "name": "Taito Ban", "img": "" },
+      { "name": "Haruna Mikawa", "img": "" },
+      { "name": "Hiroki Tochi", "img": "" }
+    ],
+    "director": { "name": "Shunsuke Nakashige", "img": "" },
+    "image": "../poster/33.png",
+    "banner": "../banner/33.png",
+    "trailer": "ZpBktEhzrW4"
+  },
+  {
+    "id": 34,
+    "title": "Alien: Romulus",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Horror", "Sci-Fi", "Thriller"],
+    "rating": 7.3,
+    "duration": "1h 59m",
+    "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+    "cast": [
+      { "name": "Cailee Spaeny", "img": "" },
+      { "name": "David Jonsson", "img": "" },
+      { "name": "Archie Renaux", "img": "" }
+    ],
+    "director": { "name": "Fede Álvarez", "img": "" },
+    "image": "../poster/34.png",
+    "banner": "../banner/34.png",
+    "trailer": "tCHMdMEeGRU"
+  },
+  {
+    "id": 35,
+    "title": "Bleach: Thousand-Year Blood War",
+    "year": 2022,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 9.0,
+    "duration": "24m per ep",
+    "description": "The Soul Society faces its greatest threat as the Wandenreich, a powerful group of Quincies, launches a massive invasion. Ichigo Kurosaki and the Soul Reapers must fight for survival.",
+    "cast": [
+      { "name": "Masakazu Morita", "img": "" },
+      { "name": "Fumiko Orikasa", "img": "" },
+      { "name": "Kentarō Itō", "img": "" }
+    ],
+    "director": { "name": "Tomohisa Taguchi", "img": "" },
+    "image": "../poster/35.png",
+    "banner": "../banner/35.png",
+    "trailer": "OJH0RfxQFWY"
+  },
+  {
+    "id": 36,
+    "title": "Black Myth: Wukong (The Movie)",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Action", "Fantasy", "Adventure"],
+    "rating": 8.0,
+    "duration": "2h 5m",
+    "description": "Based on the legendary classic 'Journey to the West', an unnamed monkey warrior sets out on a perilous quest to discover the truth about his predecessor, the legendary Sun Wukong.",
+    "cast": [
+      { "name": "Wei Chaohui", "img": "" },
+      { "name": "Zhang Yi", "img": "" },
+      { "name": "Li Xuejian", "img": "" }
+    ],
+    "director": { "name": "Feng Xiaogang", "img": "" },
+    "image": "../poster/36.png",
+    "banner": "../banner/36.png",
+    "trailer": "hG0XaYjXBhA"
+  },
+  {
+    "id": 37,
+    "title": "Deadpool & Wolverine",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Action", "Comedy", "Sci-Fi"],
+    "rating": 7.7,
+    "duration": "2h 8m",
+    "description": "Deadpool is offered a chance to join the Marvel Cinematic Universe by the Time Variance Authority. He recruits a variant of Wolverine to save his world from extinction.",
+    "cast": [
+      { "name": "Ryan Reynolds", "img": "" },
+      { "name": "Hugh Jackman", "img": "" },
+      { "name": "Emma Corrin", "img": "" }
+    ],
+    "director": { "name": "Shawn Levy", "img": "" },
+    "image": "../poster/37.png",
+    "banner": "../banner/37.png",
+    "trailer": "73_1biulkYk"
+  },
+  {
+    "id": 38,
+    "title": "Arcane",
+    "year": 2021,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Drama"],
+    "rating": 9.0,
+    "duration": "40m per ep",
+    "description": "Set in the utopian region of Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League of Legends champions and the power that will tear them apart.",
+    "cast": [
+      { "name": "Hailee Steinfeld", "img": "" },
+      { "name": "Ella Purnell", "img": "" },
+      { "name": "Kevin Alejandro", "img": "" }
+    ],
+    "director": { "name": "Pascal Charrue", "img": "" },
+    "image": "../poster/38.png",
+    "banner": "../banner/38.png",
+    "trailer": "fXmAurh012s"
+  },
+  {
+    "id": 39,
+    "title": "Kingdom",
+    "year": 2019,
+    "type": "Series",
+    "genre": ["Action", "Drama", "Horror"],
+    "rating": 8.4,
+    "duration": "35-55m per ep",
+    "description": "A crown prince is sent on a suicide mission to investigate a mysterious plague that is turning people into flesh-eating monsters, and uncovers a sinister plot against the throne.",
+    "cast": [
+      { "name": "Ju Ji-hoon", "img": "" },
+      { "name": "Bae Doona", "img": "" },
+      { "name": "Ryu Seung-ryong", "img": "" }
+    ],
+    "director": { "name": "Kim Seong-hun", "img": "" },
+    "image": "../poster/39.png",
+    "banner": "../banner/39.png",
+    "trailer": "giFZqpRj_jY"
+  },
+  {
+    "id": 40,
+    "title": "Wicked",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Drama", "Fantasy", "Musical"],
+    "rating": 7.6,
+    "duration": "2h 40m",
+    "description": "Elphaba, a misunderstood young woman because of her green skin, and Glinda, a popular girl, become unlikely friends at Shiz University in the Land of Oz. Their friendship is tested as they follow different paths.",
+    "cast": [
+      { "name": "Cynthia Erivo", "img": "" },
+      { "name": "Ariana Grande", "img": "" },
+      { "name": "Jeff Goldblum", "img": "" }
+    ],
+    "director": { "name": "Jon M. Chu", "img": "" },
+    "image": "../poster/40.png",
+    "banner": "../banner/40.png",
+    "trailer": "6COmYeLsz4c"
   }
 ]
