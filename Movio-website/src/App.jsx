@@ -9,6 +9,8 @@ import WishList from './sections/WishList'
 import SearchDropdown from "./components/SearchDropdown";
 import MovieCard from "./components/MovieCard";
 import MovieDetail from "./sections/MovieDetail";
+import Footer from "./components/Footer/Footer";
+
 
 
 
@@ -35,7 +37,7 @@ function App() {
       </BrowserRouter>
       
       
-      
+      <Footer/>
 
 
     </div>
