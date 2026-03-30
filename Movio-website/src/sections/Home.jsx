@@ -4,6 +4,7 @@ import Carousel from "../components/Carousel";
 import MovieCard from '../components/MovieCard';
 import MovieGrid from "../components/MovieGrid";
 import axios from "axios";
+import DisplayAllMovie from "../components/DisplayAllMovie";
 
 const Home = () => {
   const [popular, setPopular] = useState([]);
@@ -21,6 +22,7 @@ const Home = () => {
       <MovieGrid movies={popular} />
       <Title title={"Dong Hua"}/>
       <MovieGrid movies={popular} />
+      <DisplayAllMovie />
     </div>
   );
 };
