@@ -22,7 +22,7 @@ const Home = () => {
       <MovieGrid movies={popular} />
       <Title title={"Dong Hua"}/>
       <MovieGrid movies={popular} />
-      <DisplayAllMovie />
+      
     </div>
   );
 };

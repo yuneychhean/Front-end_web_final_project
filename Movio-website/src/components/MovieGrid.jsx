@@ -33,22 +33,28 @@ function MovieGrid({ movies, title }) {
     return () => window.removeEventListener('resize', updateItemsPerPage);
   }, []);
 
-  // Reset current index when movies change
+  // Reset current index when movies or itemsPerPage changes
   useEffect(() => {
     setCurrentIndex(0);
-  }, [movies]);
+    // Scroll to top when items per page changes
+    if (carouselRef.current) {
+      carouselRef.current.scrollTo({
+        left: 0,
+        behavior: "auto"
+      });
+    }
+  }, [movies, itemsPerPage]);
 
   const handleNext = () => {
-    if (isAnimating) return; // Prevent multiple clicks during animation
+    if (isAnimating) return;
     
     const maxIndex = Math.ceil(movies.length / itemsPerPage) - 1;
     if (currentIndex < maxIndex) {
       setIsAnimating(true);
       const newIndex = currentIndex + 1;
       setCurrentIndex(newIndex);
-      updateScrollPosition(newIndex);
       
-      // Reset animation lock after transition
+      // Wait for animation to complete
       setTimeout(() => {
         setIsAnimating(false);
       }, 500);
@@ -56,32 +62,38 @@ function MovieGrid({ movies, title }) {
   };
 
   const handlePrev = () => {
-    if (isAnimating) return; // Prevent multiple clicks during animation
+    if (isAnimating) return;
     
     if (currentIndex > 0) {
       setIsAnimating(true);
       const newIndex = currentIndex - 1;
       setCurrentIndex(newIndex);
-      updateScrollPosition(newIndex);
       
-      // Reset animation lock after transition
+      // Wait for animation to complete
       setTimeout(() => {
         setIsAnimating(false);
       }, 500);
     }
   };
 
-  const updateScrollPosition = (index) => {
-    if (carouselRef.current && carouselRef.current.children[0]) {
-      const cardWidth = carouselRef.current.children[0].offsetWidth;
-      const gap = 16;
-      const scrollPosition = (cardWidth + gap) * itemsPerPage * index;
-      carouselRef.current.scrollTo({
-        left: scrollPosition,
-        behavior: "smooth"
-      });
+  // Update scroll position whenever currentIndex or itemsPerPage changes
+  useEffect(() => {
+    if (carouselRef.current && carouselRef.current.children.length > 0) {
+      // Get the first child to calculate width
+      const firstChild = carouselRef.current.children[0];
+      if (firstChild) {
+        const cardWidth = firstChild.offsetWidth;
+        const computedStyle = window.getComputedStyle(carouselRef.current);
+        const gap = parseInt(computedStyle.gap) || 16;
+        const scrollPosition = (cardWidth + gap) * itemsPerPage * currentIndex;
+        
+        carouselRef.current.scrollTo({
+          left: scrollPosition,
+          behavior: "smooth"
+        });
+      }
     }
-  };
+  }, [currentIndex, itemsPerPage]);
 
   // Touch events for swipe
   const handleTouchStart = (e) => {
@@ -115,11 +127,28 @@ function MovieGrid({ movies, title }) {
     setTouchEnd(0);
   };
 
-  const getVisibleMovies = () => {
-    const start = currentIndex * itemsPerPage;
-    const end = start + itemsPerPage;
-    return movies.slice(start, end);
-  };
+  // Handle window resize to ensure scroll position stays correct
+  useEffect(() => {
+    const handleResize = () => {
+      if (carouselRef.current && carouselRef.current.children.length > 0) {
+        const firstChild = carouselRef.current.children[0];
+        if (firstChild) {
+          const cardWidth = firstChild.offsetWidth;
+          const computedStyle = window.getComputedStyle(carouselRef.current);
+          const gap = parseInt(computedStyle.gap) || 16;
+          const scrollPosition = (cardWidth + gap) * itemsPerPage * currentIndex;
+          
+          carouselRef.current.scrollTo({
+            left: scrollPosition,
+            behavior: "auto"
+          });
+        }
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [currentIndex, itemsPerPage]);
 
   const totalPages = Math.ceil(movies.length / itemsPerPage);
 
@@ -135,7 +164,7 @@ function MovieGrid({ movies, title }) {
         <h2 className="text-2xl font-bold mb-4 animate-fade-in">{title}</h2>
       )}
       
-      {/* Redesigned Carousel Buttons with hover animations */}
+      {/* Carousel Buttons */}
       <button
         onClick={handlePrev}
         disabled={currentIndex === 0 || isAnimating}
@@ -156,7 +185,7 @@ function MovieGrid({ movies, title }) {
         `}
         aria-label="Previous movies"
       >
-        <svg className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 group-hover:-translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
@@ -181,31 +210,31 @@ function MovieGrid({ movies, title }) {
         `}
         aria-label="Next movies"
       >
-        <svg className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
 
-      {/* Swipeable Movie Grid - Hide scrollbar */}
+      {/* Swipeable Movie Grid */}
       <div
         ref={carouselRef}
         className="flex overflow-x-hidden gap-4 cursor-grab active:cursor-grabbing"
         style={{
-          scrollbarWidth: 'none', /* Firefox */
-          msOverflowStyle: 'none', /* IE and Edge */
+          scrollbarWidth: 'none',
+          msOverflowStyle: 'none',
+          WebkitOverflowScrolling: 'touch' // Better touch scrolling on iOS
         }}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        {getVisibleMovies().map((movie, index) => (
+        {movies.map((movie, index) => (
           <div
             key={movie.id || index}
-            className="flex-shrink-0 transition-all duration-500 hover:scale-105 hover:z-10"
+            className="flex-shrink-0 transition-all duration-300 hover:scale-105 hover:z-10"
             style={{
               width: `calc(${100 / itemsPerPage}% - ${(itemsPerPage - 1) * 16 / itemsPerPage}px)`,
-              minWidth: '120px',
-              animation: `fadeIn 0.5s ease-out ${index * 0.05}s both`
+              minWidth: '120px'
             }}
           >
             <MovieCard {...movie} />
@@ -213,9 +242,30 @@ function MovieGrid({ movies, title }) {
         ))}
       </div>
 
-      
-
-    
+      {/* Optional: Page indicators */}
+      {totalPages > 1 && (
+        <div className="flex justify-center gap-2 mt-6">
+          {Array.from({ length: totalPages }).map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => {
+                if (!isAnimating && idx !== currentIndex) {
+                  setIsAnimating(true);
+                  setCurrentIndex(idx);
+                  setTimeout(() => setIsAnimating(false), 500);
+                }
+              }}
+              className={`h-2 rounded-full transition-all duration-300 ${
+                idx === currentIndex 
+                  ? 'bg-white w-6' 
+                  : 'bg-white/50 w-2 hover:bg-white/70'
+              }`}
+              aria-label={`Go to page ${idx + 1}`}
+              disabled={isAnimating}
+            />
+          ))}
+        </div>
+      )}
     </div>
   )
 }
