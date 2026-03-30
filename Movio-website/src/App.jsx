@@ -19,7 +19,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
 
   return (
-    <div className="min-h-screen overflow-hidden bg-[#252527] text-black dark:bg-[#0f1418] dark:text-[#f0f2f5] transition-colors duration-300">
+    <div className="min-h-screen overflow-hidden bg-[#252527] text-black dark:bg-[#0f1418] dark:text-[#f0f2f5] transition-colors duration-300 ">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -36,7 +36,10 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      <Footer />
+      <div className="mt-4 sm:mt-6">
+
+        <Footer />
+      </div>
     </div>
   );
 }
