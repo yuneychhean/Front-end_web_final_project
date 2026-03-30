@@ -16,6 +16,7 @@ import Footer from "./components/Footer/Footer";
 
 
 
+
 function App() {
 
   return (
@@ -36,7 +37,9 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      <div className="mt-4 sm:mt-6">
+      
+
+      <div className="mt-8 sm:mt-10">
 
         <Footer />
       </div>
