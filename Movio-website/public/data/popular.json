@@ -1,59 +1,22 @@
 [
   {
-    "id": 1,
-    "title": "Spider-Man: Homecoming",
-    "year": 2017,
-    "type": "Movie",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
-    "rating": 7.4,
-    "duration": "2h 13m",
-    "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, finding himself on the trail of a new menace prowling the skies of New York City.",
-    "cast": ["Tom Holland", "Michael Keaton", "Robert Downey Jr."],
-    "director": "Jon Watts",
-    "image": "../poster/1.png",
-    "banner": "https://via.placeholder.com/1280x720"
-  },
-  {
-    "id": 2,
-    "title": "Spider-Man: Far From Home",
-    "year": 2019,
-    "type": "Movie",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
-    "rating": 7.4,
-    "duration": "2h 9m",
-    "description": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
-    "cast": ["Tom Holland", "Samuel L. Jackson", "Jake Gyllenhaal"],
-    "director": "Jon Watts",
-    "image": "../poster/2.png",
-    "banner": "https://via.placeholder.com/1280x720"
-  },
-  {
     "id": 3,
     "title": "Renegade Immortal",
     "year": 2023,
     "type": "Series",
     "genre": ["Animation", "Action", "Fantasy"],
-    "rating": 8.8,
+    "rating": 9.5,
     "duration": "20m per ep",
     "description": "Wang Lin is a very smart boy with loving parents. Although he and his parents are not cultivators, he has always had the dream of becoming one.",
-    "cast": ["Shi Ze Kun", "Lin Mao", "Feng Sheng"],
-    "director": "Unknown",
+    "cast": [
+      { "name": "Shi Ze Kun", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxOzOlhKmH4rKxcyDygu6CyKvO8RI86I1fQ&s" },
+      { "name": "Lin Mao", "img": "https://www.chinacenter.net/wp-content/uploads/2024/02/Lin-Mao.jpg" },
+      { "name": "Feng Sheng", "img": "https://p0.pipi.cn/basicdata/25bfd6d7537c69e7aa50157344c6728d17d27.jpg?imageMogr2/crop/!282x400r" }
+    ],
+    "director": { "name": "Shitou Xiong ", "img": "https://p0.pipi.cn/basicdata/54ecde712c98d3be2a313955b226a0af93942.jpg?imageMogr2/crop/!282x400r" },
     "image": "../poster/3.png",
-    "banner": "https://via.placeholder.com/1280x720"
-  },
-  {
-    "id": 4,
-    "title": "Soul Land II",
-    "year": 2023,
-    "type": "Series",
-    "genre": ["Animation", "Action", "Adventure"],
-    "rating": 8.5,
-    "duration": "20m per ep",
-    "description": "Ten thousand years after the founding of the Tang Sect, the Tang Sect has declined. A new generation of proud talents has emerged.",
-    "cast": ["Liang Da Wei", "Su Shang Qing"],
-    "director": "Shen Leping",
-    "image": "../poster/4.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/3.png",
+    "trailer": "IcmzYx2eNTg"
   },
   {
     "id": 5,
@@ -61,13 +24,18 @@
     "year": 2008,
     "type": "Movie",
     "genre": ["Action", "Crime", "Drama"],
-    "rating": 9.0,
+    "rating": 9.5,
     "duration": "2h 32m",
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-    "director": "Christopher Nolan",
+    "cast": [
+      { "name": "Christian Bale", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLYsIoHMVs6MU530uo_jfS-bQMgztrveGQg&s" },
+      { "name": "Heath Ledger", "img": "https://s2.r29static.com/bin/entry/add/x,80/1919301/image.jpg" },
+      { "name": "Aaron Eckhart", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnQkzN_EflbE-g3FV4r4wH_PmEnkSkENdNw&s" }
+    ],
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/5.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/5.png",
+    "trailer": "EXeTwQWrcwY"
   },
   {
     "id": 6,
@@ -75,13 +43,18 @@
     "year": 2010,
     "type": "Movie",
     "genre": ["Action", "Adventure", "Sci-Fi"],
-    "rating": 8.8,
+    "rating": 9.4,
     "duration": "2h 28m",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
-    "director": "Christopher Nolan",
+    "cast": [
+      { "name": "Leonardo DiCaprio", "img": "https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" },
+      { "name": "Joseph Gordon-Levitt", "img": "https://m.media-amazon.com/images/M/MV5BMTY3NTk0NDI3Ml5BMl5BanBnXkFtZTgwNDA3NjY0MjE@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Elliot Page", "img": "https://cdn.britannica.com/41/249341-050-E5F7039C/Actor-Elliot-Page-2022.jpg" }
+    ],
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/6.png",
-    "banner": "https://via.paceholder.com/1280x720"
+    "banner": "../banner/6.png",
+    "trailer": "YoHD9XEInc0"
   },
   {
     "id": 7,
@@ -92,10 +65,15 @@
     "rating": 9.1,
     "duration": "24m per ep",
     "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
-    "cast": ["Yuki Kaji", "Yui Ishikawa", "Marina Inoue"],
-    "director": "Tetsurō Araki",
+    "cast": [
+      { "name": "Yuki Kaji", "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Yui Ishikawa", "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Marina Inoue", "img": "https://m.media-amazon.com/images/M/MV5BY2M5OWMzNGMtZDBiNi00ZmZlLTgxNDEtZTI5MjNhNmIzMGU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" }
+    ],
+    "director": { "name": "Tetsurō Araki", "img": "https://pbs.twimg.com/media/EIjBvI6X0AYQCiG.jpg" },
     "image": "../poster/7.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/7.png",
+    "trailer": "M_OauHnAFc8"
   },
   {
     "id": 8,
@@ -103,27 +81,18 @@
     "year": 2019,
     "type": "Series",
     "genre": ["Animation", "Action", "Adventure"],
-    "rating": 8.7,
+    "rating": 9.0,
     "duration": "24m per ep",
-    "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
-    "cast": ["Natsuki Hanae", "Akari Kito", "Hiro Shimono"],
-    "director": "Haruo Sotozaki",
+    "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly.",
+    "cast": [
+      { "name": "Natsuki Hanae", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjee8XKDoxWrqHNye5eWxLKNABau67P8Bouw&s" },
+      { "name": "Akari Kito", "img": "https://m.media-amazon.com/images/M/MV5BMTJkOTZjNjMtM2Q1MS00ZDA1LTgwYTEtNjI2ZDBhNmZiYTRhXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Hiro Shimono", "img": "https://m.media-amazon.com/images/M/MV5BYjBiYWM0YjUtYjgxOS00ZTIwLWJhN2ItZTc3YjBkMmJlNjYxXkEyXkFqcGc@._V1_.jpg" }
+    ],
+    "director": { "name": "Haruo Sotozaki", "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSbI0W6QOpHHfyIhwhNdLwh-ocwiAvl_O3URjylOyPe6KDsyH5fb4LdWs6_nalLV-SylEkmtYfg-B68r8Q" },
     "image": "../poster/8.png",
-    "banner": "https://via.placeholder.com/1280x720"
-  },
-  {
-    "id": 9,
-    "title": "John Wick: Chapter 4",
-    "year": 2023,
-    "type": "Movie",
-    "genre": ["Action", "Crime", "Thriller"],
-    "rating": 7.7,
-    "duration": "2h 49m",
-    "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe.",
-    "cast": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"],
-    "director": "Chad Stahelski",
-    "image": "../poster/9.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/8.png",
+    "trailer": "VQGCKyvzIM4"
   },
   {
     "id": 10,
@@ -131,15 +100,131 @@
     "year": 2023,
     "type": "Movie",
     "genre": ["Biography", "Drama", "History"],
-    "rating": 8.4,
+    "rating": 9.1,
     "duration": "3h 0m",
     "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
-    "cast": ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
-    "director": "Christopher Nolan",
+    "cast": [
+      { "name": "Cillian Murphy", "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg" },
+      { "name": "Emily Blunt", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Emily_Blunt_at_2026_Golden_Globes_01_%28cropped%29.jpg" },
+      { "name": "Matt Damon", "img": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_FMjpg_UX1000_.jpg" }
+    ],
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/10.png",
-    "banner": "https://via.placeholder.com/1280x720"
+    "banner": "../banner/10.png",
+    "trailer": "uYPbbksJxIg"
+  },
+  {
+    "id": 12,
+    "title": "Interstellar",
+    "year": 2014,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.9,
+    "duration": "2h 49m",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth faces a catastrophic environmental collapse.",
+    "cast": [
+      { "name": "Matthew McConaughey", "img": "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_.jpg" },
+      { "name": "Anne Hathaway", "img": "https://m.media-amazon.com/images/M/MV5BNzA0MWI3ZDgtMDVkZS00NTVhLTkwMzQtNmNlODk5MDYzMzFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Jessica Chastain", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMBxFr_-WTzGMMYraDKnNkj2sUA3DhLhV0g&s" }
+    ],
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
+    "image": "../poster/12.png",
+    "banner": "../banner/12.png",
+    "trailer": "zSWdZVtXT7E"
+  },
+  {
+    "id": 15,
+    "title": "Jujutsu Kaisen",
+    "year": 2020,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Fantasy"],
+    "rating": 8.8,
+    "duration": "24m per ep",
+    "description": "A boy swallows a cursed talisman — the finger of a Demon — and becomes part of it, leading him to fight demons alongside jujutsu sorcerers.",
+    "cast": [
+      { "name": "Junya Enoki", "img": "https://media.themoviedb.org/t/p/w235_and_h235_face/vBnNL3Jqy0zkS3ZgsXZmvDM9Dfz.jpg" },
+      { "name": "Yūichi Nakamura", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJ-Q2_Brf-aFGuOc2ALzmrGouUvxPjjIS8w&s" },
+      { "name": "Asami Seto", "img": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/seto_asami.jpg" }
+    ],
+    "director": { "name": "Sunghoo Park", "img": "https://m.media-amazon.com/images/M/MV5BMTQxM2JjMWMtZDIzOS00MWI3LTg2ZWQtOGVhMjAyMDA3MWE0XkEyXkFqcGc@._V1_.jpg" },
+    "image": "../poster/15.png",
+    "banner": "../banner/15.png",
+    "trailer": "pkKu9hLT-t8"
+  },
+  {
+    "id": 18,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rating": 8.8,
+    "duration": "2h 46m",
+    "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he must prevent a terrible future.",
+    "cast": [
+      { "name": "Timothée Chalamet", "img": "https://cdn.britannica.com/36/231936-050-63D849FB/Timothee-Chalamet-2021.jpg" },
+      { "name": "Zendaya", "img": "https://cdn.britannica.com/23/264823-050-A938FF2D/zendaya-attends-96th-annual-academy-awards-march-10-2024-hollywood-california-actress-acting.jpg" },
+      { "name": "Austin Butler", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6n5FOO8ZfTm-kGmAoBEtgM8OQBiL1Y6hVxw&s" }
+    ],
+    "director": { "name": "Denis Villeneuve", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg/960px-DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg" },
+    "image": "../poster/18.png",
+    "banner": "../banner/18.png",
+    "trailer": "Way9Dexny3w"
+  },
+  {
+    "id": 21,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.7,
+    "duration": "24m per ep",
+    "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes wrong, leaving them in damaged physical forms.",
+    "cast": [
+      { "name": "Vic Mignogna", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCPHFTdU4GoQ31xUFvjbZSagp0JkbYQ5-xA&s" },
+      { "name": "Maxey Whitehead", "img": "https://m.media-amazon.com/images/S/pv-target-images/41e792062a9a439a6d5e239aa89286a9c92d9691172d3211073bb4d8a13c97e4.jpg" },
+      { "name": "Travis Willingham", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Travis_Willingham_Photo_Op_GalaxyCon_Raleigh_2025.jpg/960px-Travis_Willingham_Photo_Op_GalaxyCon_Raleigh_2025.jpg" }
+    ],
+    "director": { "name": "Yasuhiro Irie", "img": "https://www.ficzone.com/wp-content/uploads/2017/12/Yasuhiro-Irie.jpg" },
+    "image": "../poster/21.png",
+    "banner": "../banner/21.png",
+    "trailer": "AYlksPeSXrs"
+  },
+  {
+    "id": 25,
+    "title": "The Revenant",
+    "year": 2015,
+    "type": "Movie",
+    "genre": ["Adventure", "Drama", "Thriller"],
+    "rating": 8.5,
+    "duration": "2h 36m",
+    "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+    "cast": [
+      { "name": "Leonardo DiCaprio", "img": "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Tom Hardy", "img": "https://media.gq.com/photos/5e6128d2398289000862596e/master/pass/tom-hardy-lead-840-social.jpg" },
+      { "name": "Domhnall Gleeson", "img": "https://resizing.flixster.com/8absmvJKo7ew_xzOuHJ3Hg6TF1A=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/579579_v9_bd.jpg" }
+    ],
+    "director": { "name": "Alejandro G. Iñárritu", "img": "https://upload.wikimedia.org/wikipedia/commons/0/04/MKr386809_Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_%28Amores_Perros%2C_Cannes_2025%29.jpg" },
+    "image": "../poster/25.png",
+    "banner": "../banner/25.png",
+    "trailer": "LoebZZ8K5N0"
+  },
+  {
+    "id": 28,
+    "title": "Hunter x Hunter",
+    "year": 2011,
+    "type": "Series",
+    "genre": ["Animation", "Action", "Adventure"],
+    "rating": 8.4,
+    "duration": "23m per ep",
+    "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and associates, he seeks out his missing father, who is a Hunter himself.",
+    "cast": [
+      { "name": "Megumi Han", "img": "https://m.media-amazon.com/images/M/MV5BMjM0Mjg1MzMtZDQ5Yy00MDQyLTgxOTUtOTFmZmE5OTQ5YzMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Mariya Ise", "img": "https://i.namu.wiki/i/UDLdlSrxoB4pZ8tJeiwlcc3Kh5l9MzfsutbJjBPf2nXzK5EJlYLaN8_wIjxyxHSKINyq6r2_QpYvbLEEZf2HcQ.webp" },
+      { "name": "Cristina Valenzuela", "img": "https://m.media-amazon.com/images/M/MV5BNDE5NDBmZDktYTgwNC00MTFlLThiMTMtZTEwMmYwYzI5ZmI0XkEyXkFqcGc@._V1_.jpg" }
+    ],
+    "director": { "name": "Hiroshi Kōjina", "img": "https://www.animenewsnetwork.com/images/encyc/P25764-3695592194.1691866024.jpg" },
+    "image": "../poster/28.png",
+    "banner": "../banner/28.png",
+    "trailer": "d6kBeJjTGnY"
   }
-
-
-  
 ]

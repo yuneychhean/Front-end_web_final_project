@@ -2,7 +2,7 @@ import { BrowserRouter , Routes , Route } from "react-router-dom";
 import Home from "./sections/Home";
 import Navbar from "./layouts/Navbar";
 import Movies from "./sections/Movies"
-import Popular from "./layouts/Navbar"
+import Popular from "./sections/Popular"
 import Series from './sections/Series'
 import Login from './sections/Login'
 import Signup from "./sections/Singup";

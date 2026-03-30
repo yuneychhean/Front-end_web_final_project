@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Title from '../components/Title';
+import DisplaySeries from '../components/DisplaySeries';
 
 const Series = () => {
   return (
-    <div>Series</div>
-  )
-}
+    <div className='pt-18 sm:pt-20 sm:pb-20 px-4 sm:px-10'>
+      <Title title={'Popular Series'} />
+      <DisplaySeries />
+    </div>
+  );
+};
 
 export default Series;
