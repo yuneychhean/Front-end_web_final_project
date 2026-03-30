@@ -5,10 +5,11 @@ import {
   Star, Play, Clock, Calendar,
   Film, Plus, Check, Award, TrendingUp, Users,
   User, BookOpen, CalendarDays, Clock3, Tag, Info,
-  Building2, Languages, Globe, X
+  Building2, Languages, Globe, X, Heart
 } from "lucide-react";
 import Button from "../components/Button";
 import movieData from "../../public/data/movie.json";
+import { useWishlist } from "../context/WishlistContext";
 
 const MovieDetail = () => {
   const { id } = useParams();
@@ -16,14 +17,18 @@ const MovieDetail = () => {
   const location = useLocation();
   const [movie, setMovie] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [isInWishlist, setIsInWishlist] = useState(false);
   const [activeTab, setActiveTab] = useState("overview");
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [showTrailer, setShowTrailer] = useState(false);
 
+  // Wishlist hooks
+  const { isInWishlist, toggleWishlist } = useWishlist();
+  const inWishlist = movie ? isInWishlist(movie.id) : false;
+
   const movieFromState = location.state?.movie;
+
   const fetchMovieFromJSON = () => {
     try {
       setLoading(true);
@@ -42,19 +47,16 @@ const MovieDetail = () => {
   };
 
   useEffect(() => {
-      window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
-      if (movieFromState) {
-        setMovie(movieFromState);
-      }
+    if (movieFromState) {
+      setMovie(movieFromState);
+    }
 
-      fetchMovieFromJSON(); // always ensure full data
+    fetchMovieFromJSON();
   }, [id]);
 
-  
-
   const handleOpenTrailer = (e) => {
-    // Prevent any event bubbling
     if (e) {
       e.stopPropagation();
     }
@@ -62,8 +64,10 @@ const MovieDetail = () => {
     setShowTrailer(true);
   };
 
-  const handleAddToWishlist = () => {
-    setIsInWishlist(!isInWishlist);
+  const handleToggleWishlist = () => {
+    if (movie) {
+      toggleWishlist(movie);
+    }
   };
 
   const getImagePath = (imgPath) => {
@@ -128,8 +132,8 @@ const MovieDetail = () => {
   }
 
   const heroImageUrl = movie?.banner && movie.banner.startsWith("http")
-  ? movie.banner
-  : getImagePath(movie.banner);
+    ? movie.banner
+    : getImagePath(movie.banner);
   const ratingBgColor = getRatingBgColor();
 
   return (
@@ -187,37 +191,34 @@ const MovieDetail = () => {
 
       {/* Trailer Modal */}
       {showTrailer && (
-  <div
-    className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
-    onClick={() => setShowTrailer(false)}
-  >
-    <div
-      className="relative w-full max-w-5xl rounded-2xl overflow-hidden"
-      onClick={(e) => e.stopPropagation()}
-    >
-      {/* Close Button */}
-      <button
-        onClick={() => setShowTrailer(false)}
-        className="absolute top-4 right-4 z-10 bg-black/50 rounded-full p-2 hover:bg-[#18E3B4] transition-colors"
-      >
-        <X size={24} className="text-white" />
-      </button>
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+          onClick={() => setShowTrailer(false)}
+        >
+          <div
+            className="relative w-full max-w-5xl rounded-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowTrailer(false)}
+              className="absolute top-4 right-4 z-10 bg-black/50 rounded-full p-2 hover:bg-[#18E3B4] transition-colors"
+            >
+              <X size={24} className="text-white" />
+            </button>
+            <div className="relative w-full aspect-video bg-black">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src={`https://www.youtube.com/embed/${movie.trailer}?autoplay=1`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
-      {/* Video Wrapper */}
-      <div className="relative w-full aspect-video bg-black">
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={`https://www.youtube.com/embed/${movie.trailer}?autoplay=1`}
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </div>
-    </div>
-  </div>
-)}
-
-      {/* Content Section - Moved outside hero */}
+      {/* Content Section */}
       <div className="container mx-auto px-4 md:px-8 -mt-20 md:-mt-24 relative z-20">
         <div className="bg-[#252527]/80 dark:bg-[#0f1418]/80 backdrop-blur-xl rounded-2xl p-6 md:p-8 border border-white/10">
           {/* Title and Rating */}
@@ -272,31 +273,40 @@ const MovieDetail = () => {
             </div>
           )}
 
-          
-          {/* Action Buttons */}
-<div className="flex flex-wrap gap-4">
-  <button
-    onClick={(e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      setShowTrailer(true);
-    }}
-    className="bg-[#18E3B4] hover:bg-[#18E3B4]/80 text-white px-8 md:px-10 py-3 md:py-3.5 rounded-xl flex items-center gap-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#18E3B4]/25 font-semibold cursor-pointer"
-  >
-    <Play size={20} className="fill-current" />
-    Watch Now
-  </button>
-  <Button
-    onClick={handleAddToWishlist}
-    className={`backdrop-blur-sm px-6 md:px-8 py-3 md:py-3.5 rounded-xl flex items-center gap-2 transition-all duration-300 border font-semibold ${isInWishlist
-      ? "bg-[#18E3B4]/20 border-[#18E3B4] text-[#18E3B4]"
-      : "bg-white/10 border-white/20 text-white hover:bg-white/20"
-      }`}
-  >
-    {isInWishlist ? <Check size={18} /> : <Plus size={18} />}
-    {isInWishlist ? "Added to Wishlist" : "Add to Wishlist"}
-  </Button>
-</div>
+          {/* Action Buttons with Wishlist Status */}
+          <div className="flex flex-wrap gap-4">
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setShowTrailer(true);
+              }}
+              className="bg-[#18E3B4] hover:bg-[#18E3B4]/80 text-white px-8 md:px-10 py-3 md:py-3.5 rounded-xl flex items-center gap-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#18E3B4]/25 font-semibold cursor-pointer"
+            >
+              <Play size={20} className="fill-current" />
+              Watch Trailer
+            </button>
+            <button
+              onClick={handleToggleWishlist}
+              className={`backdrop-blur-sm px-6 md:px-8 py-3 md:py-3.5 rounded-xl flex items-center gap-2 transition-all duration-300 border font-semibold cursor-pointer ${
+                inWishlist
+                  ? "bg-[#18E3B4]/20 border-[#18E3B4] text-[#18E3B4]"
+                  : "bg-white/10 border-white/20 text-white hover:bg-white/20"
+              }`}
+            >
+              {inWishlist ? (
+                <>
+                  <Check size={18} />
+                  Added to Wishlist
+                </>
+              ) : (
+                <>
+                  <Heart size={18} />
+                  Add to Wishlist
+                </>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -329,7 +339,6 @@ const MovieDetail = () => {
         {/* Tab Content */}
         {activeTab === "overview" && (
           <div className="space-y-8">
-            {/* Synopsis Section */}
             <div>
               <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                 <BookOpen size={20} className="text-[#18E3B4]" />
@@ -340,7 +349,6 @@ const MovieDetail = () => {
               </p>
             </div>
 
-            {/* Quick Stats - 4 key stats in a row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-white/5 rounded-2xl p-4 text-center hover:bg-white/10 transition-all">
                 <Star size={24} className="text-[#18E3B4] mx-auto mb-2" />
@@ -364,7 +372,6 @@ const MovieDetail = () => {
               </div>
             </div>
 
-            {/* Genre Tags */}
             <div>
               <h4 className="text-white/60 text-sm mb-3">Genres</h4>
               <div className="flex flex-wrap gap-2">
@@ -380,7 +387,6 @@ const MovieDetail = () => {
 
         {activeTab === "details" && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Production Details */}
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
               <h4 className="text-[#18E3B4] font-semibold mb-4 flex items-center gap-2">
                 <Film size={18} />
@@ -406,7 +412,6 @@ const MovieDetail = () => {
               </div>
             </div>
 
-            {/* Additional Details */}
             <div className="bg-white/5 rounded-2xl p-6 backdrop-blur-sm">
               <h4 className="text-[#18E3B4] font-semibold mb-4 flex items-center gap-2">
                 <Info size={18} />
