@@ -1,35 +1,51 @@
 import React, { useState } from "react";
-import {Link} from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import MovioLogo from "../assets/MovioLogo.png";
-import { Menu, X, Search, Heart, Sun, Moon } from "lucide-react";
+import { Menu, X, Search, Heart, Home, Film, Tv, TrendingUp, User, LogIn } from "lucide-react";
 import Button from "../components/Button.jsx";
 import SearchDropdown from "../components/SearchDropdown.jsx";
 
 export const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
+  const location = useLocation();
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/movies", label: "Movies" },
-    { href: "/series", label: "Series" },
-    { href: "/popular", label: "Popular" },
+    { href: "/", label: "Home", icon: Home },
+    { href: "/movies", label: "Movies", icon: Film },
+    { href: "/series", label: "Series", icon: Tv },
+    { href: "/popular", label: "Popular", icon: TrendingUp },
   ];
 
+  const isActive = (href) => {
+    if (href === "/") {
+      return location.pathname === href;
+    }
+    return location.pathname.startsWith(href);
+  };
+
   return (
-    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-[#0f1418] py-3 border-b-3  border-b-[#18E3B5] z-50 transition-colors duration-300">
+    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-[#0f1418] py-3 border-b-3 border-b-[#18E3B5] z-50 transition-colors duration-300">
       <nav className="container mx-auto px-3 flex items-center justify-between">
         {/* Logo */}
-        <img src={MovioLogo} alt="Movio Logo" className="w-32" />
+        <Link to="/">
+          <img src={MovioLogo} alt="Movio Logo" className="w-32 cursor-pointer" />
+        </Link>
 
         {/* Links */}
         <ul className="hidden md:flex gap-3 items-center">
           {navLinks.map((link, index) => (
-            <li
-              key={index}
-              className="text-sm text-[#f5f5f5] dark:text-[#F5F5F5] hover:text-[#18E3B4] rounded-full hover:bg-[#2f6078]/30 font-semibold px-4 py-2"
-            >
-              <Link to={link.href}>{link.label}</Link>
-            </li>
+            <Link to={link.href} key={index}>
+              <li
+                className={`text-sm font-semibold px-4 py-2 rounded-full transition-all duration-300
+                  ${isActive(link.href) 
+                    ? 'text-[#18E3B4] bg-[#18E3B4]/10' 
+                    : 'text-[#F5F5F5] dark:text-[#F5F5F5] hover:text-[#18E3B4] hover:bg-[#2f6078]/30'
+                  }
+                `}
+              >
+                {link.label}
+              </li>
+            </Link>
           ))}
         </ul>
 
@@ -43,12 +59,9 @@ export const Navbar = () => {
           </span>
 
           <Button size="md">
-            
             <Link to='/login'>
               Login
             </Link>
-
-
           </Button>
         </div>
 
@@ -56,15 +69,14 @@ export const Navbar = () => {
         <div className="flex justify-center items-center md:hidden gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
           <SearchDropdown/>
           
-          
-            <button>
-              <Link to='/wishList'>
-                <Heart
-                  size={20}
-                  className="cursor-pointer hover:text-[#18E3B4] transition-colors"
-                />
-              </Link>
-            </button>
+          <Link to='/wishlist'>
+            
+              <Heart
+                size={20}
+                className="cursor-pointer hover:text-[#18E3B4] transition-colors"
+              />
+            
+          </Link>
           
 
           <button
@@ -76,33 +88,65 @@ export const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Redesigned Mobile Menu with Icons */}
       <div
-        className={`md:hidden fixed top-16 right-0 h-screen w-1/2 bg-[#252527] dark:bg-[#0f1418] border-[#18E3B5]/30 p-3 pt-10 transform transition-transform duration-500 ease-in-out ${
+        className={`md:hidden fixed top-16 right-0 h-screen w-2/3 bg-[#252527] dark:bg-[#0f1418] border-l border-[#18E3B5]/30 p-3 pt-6 transform transition-transform duration-500 ease-in-out ${
           isMobileMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        {navLinks.map((link, index) => (
-          <div
-            key={index}
-            className="py-3 container mx-auto px-6 flex flex-col gap-3 hover:glass-strong hover:bg-[#2f6078]/30 rounded-3xl"
-          >
-            <Link
-              to={link.href}
-              className="text-[#f5f5f5] dark:text-[#f0f2f5] hover:text-[#18E3B4] font-semibold text-lg"
-              onClick={() => setIsMobileMenu(false)}
-            >
-              {link.label}
-            </Link>
+        {/* User Info Section */}
+        <div className="px-4 py-3 mb-4 border-b border-[#18E3B5]/20">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-[#18E3B5]/20 flex items-center justify-center">
+              <User size={20} className="text-[#18E3B5]" />
+            </div>
+            <div>
+              <p className="text-white text-sm font-semibold">Guest User</p>
+              <Link to='/login' className="text-[#18E3B5] text-xs">Sign In</Link>
+            </div>
           </div>
-        ))}
-        <Link to='/login'>
-          <Button size="md" className="w-full mt-4">
-          
+        </div>
+
+        {/* Navigation Links with Icons */}
+        {navLinks.map((link, index) => {
+          const Icon = link.icon;
+          const active = isActive(link.href);
+          return (
+            <div
+              key={index}
+              className="py-2 container mx-auto px-4"
+            >
+              <Link
+                to={link.href}
+                className={`
+                  flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-base
+                  transition-all duration-300
+                  ${active 
+                    ? 'text-[#18E3B4] bg-[#18E3B4]/10' 
+                    : 'text-[#f5f5f5] dark:text-[#f0f2f5] hover:text-[#18E3B4] hover:bg-[#2f6078]/30'
+                  }
+                `}
+                onClick={() => setIsMobileMenu(false)}
+              >
+                <Icon size={20} className={active ? 'text-[#18E3B4]' : 'text-gray-400'} />
+                <span>{link.label}</span>
+                {active && (
+                  <span className="ml-auto w-1.5 h-1.5 rounded-full bg-[#18E3B4]" />
+                )}
+              </Link>
+            </div>
+          );
+        })}
+
+        {/* Login Button at Bottom */}
+        <div className="absolute bottom-8 left-0 right-0 px-6">
+          <Link to='/login' onClick={() => setIsMobileMenu(false)}>
+            <Button size="md" className="w-full flex items-center justify-center gap-2">
+              <LogIn size={18} />
               Login
-          </Button>
-        </Link>
-        
+            </Button>
+          </Link>
+        </div>
       </div>
     </header>
   );
