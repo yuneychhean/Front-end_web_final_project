@@ -159,10 +159,6 @@ function MovieGrid({ movies, title }) {
 
   return (
     <div className="relative">
-      {/* Optional: Add title if provided */}
-      {title && (
-        <h2 className="text-2xl font-bold mb-4 animate-fade-in">{title}</h2>
-      )}
       
       {/* Carousel Buttons */}
       <button
@@ -218,7 +214,7 @@ function MovieGrid({ movies, title }) {
       {/* Swipeable Movie Grid */}
       <div
         ref={carouselRef}
-        className="flex overflow-x-hidden gap-4 cursor-grab active:cursor-grabbing"
+        className="flex overflow-x-hidden overflow-y-hidden gap-4 cursor-grab active:cursor-grabbing"
         style={{
           scrollbarWidth: 'none',
           msOverflowStyle: 'none',
