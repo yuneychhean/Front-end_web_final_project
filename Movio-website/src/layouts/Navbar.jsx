@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom'
 import MovioLogo from "../assets/MovioLogo.png";
 import { Menu, X, Search, Heart, Home, Film, Tv, TrendingUp, User, LogIn } from "lucide-react";
@@ -8,6 +8,11 @@ import SearchDropdown from "../components/SearchDropdown.jsx";
 export const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false);
   const location = useLocation();
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsMobileMenu(false);
+  }, [location]);
 
   const navLinks = [
     { href: "/", label: "Home", icon: Home },
@@ -23,11 +28,16 @@ export const Navbar = () => {
     return location.pathname.startsWith(href);
   };
 
+  // Function to close mobile menu
+  const closeMobileMenu = () => {
+    setIsMobileMenu(false);
+  };
+
   return (
-    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-[#0f1418] py-3 border-b-3 border-b-[#18E3B5] z-50 transition-colors duration-300">
+    <header className="fixed top-0 right-0 left-0 bg-[#252527] dark:bg-[#0f1418] py-4 border-b-3 border-b-[#18E3B5] z-50 transition-colors duration-300">
       <nav className="container mx-auto px-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/">
+        <Link to="/" onClick={closeMobileMenu}>
           <img src={MovioLogo} alt="Movio Logo" className="w-32 cursor-pointer" />
         </Link>
 
@@ -53,32 +63,29 @@ export const Navbar = () => {
         <div className="hidden md:flex justify-center items-center gap-4">
           <span className="flex items-center justify-center gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
              <SearchDropdown />
-             <Link to='/wishlist'>
+             <Link to='/wishlist' onClick={closeMobileMenu}>
                 <Heart className="cursor-pointer hover:text-[#18E3B4] transition-colors" />
              </Link>
           </span>
 
-          <Button size="md">
-            <Link to='/login'>
-              Login
+            <Link to='/login' onClick={closeMobileMenu}>
+              <Button size="md">
+                  Login
+              </Button>
             </Link>
-          </Button>
         </div>
 
         {/* Mobile right side */}
         <div className="flex justify-center items-center md:hidden gap-2 text-[#f5f5f5] dark:text-[#f0f2f5]">
           <SearchDropdown/>
           
-          <Link to='/wishlist'>
-            
-              <Heart
-                size={20}
-                className="cursor-pointer hover:text-[#18E3B4] transition-colors"
-              />
-            
+          <Link to='/wishlist' onClick={closeMobileMenu}>
+            <Heart
+              size={20}
+              className="cursor-pointer hover:text-[#18E3B4] transition-colors"
+            />
           </Link>
           
-
           <button
             className="cursor-pointer"
             onClick={() => setIsMobileMenu((prev) => !prev)}
@@ -88,9 +95,9 @@ export const Navbar = () => {
         </div>
       </nav>
 
-      {/* Redesigned Mobile Menu with Icons */}
+      {/* Mobile Menu with Icons */}
       <div
-        className={`md:hidden fixed top-16 right-0 h-screen w-2/3 bg-[#252527] dark:bg-[#0f1418] border-l border-[#18E3B5]/30 p-3 pt-6 transform transition-transform duration-500 ease-in-out ${
+        className={`md:hidden fixed top-16 right-0 min-h-screen w-2/3 bg-[#252527] dark:bg-[#0f1418] border-l border-[#18E3B5]/30 pt-6 transform transition-transform duration-500 ease-in-out ${
           isMobileMenu ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -102,7 +109,9 @@ export const Navbar = () => {
             </div>
             <div>
               <p className="text-white text-sm font-semibold">Guest User</p>
-              <Link to='/login' className="text-[#18E3B5] text-xs">Sign In</Link>
+              <Link to='/login' className="text-[#18E3B5] text-xs" onClick={closeMobileMenu}>
+                Sign In
+              </Link>
             </div>
           </div>
         </div>
@@ -126,7 +135,7 @@ export const Navbar = () => {
                     : 'text-[#f5f5f5] dark:text-[#f0f2f5] hover:text-[#18E3B4] hover:bg-[#2f6078]/30'
                   }
                 `}
-                onClick={() => setIsMobileMenu(false)}
+                onClick={closeMobileMenu}
               >
                 <Icon size={20} className={active ? 'text-[#18E3B4]' : 'text-gray-400'} />
                 <span>{link.label}</span>
@@ -139,8 +148,8 @@ export const Navbar = () => {
         })}
 
         {/* Login Button at Bottom */}
-        <div className="absolute bottom-8 left-0 right-0 px-6">
-          <Link to='/login' onClick={() => setIsMobileMenu(false)}>
+        <div className="absolute bottom-18 left-0 right-0 px-2 min-w-full">
+          <Link to='/login' onClick={closeMobileMenu}>
             <Button size="md" className="w-full flex items-center justify-center gap-2">
               <LogIn size={18} />
               Login
