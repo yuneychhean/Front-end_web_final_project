@@ -7,26 +7,21 @@ import axios from "axios";
 import DisplayAllMovie from "../components/DisplayAllMovie";
 
 const Home = () => {
-  const [PopularMovies, setPopularMovies] = useState([]);
+  const [popular, setPopular] = useState([]);
   
   useEffect(() => {
-    axios.get('/data/movie.json')
-       .then(res => {
-        const filtered = res.data.filter(item => item.rating >= 8.5);
-        setPopularMovies(filtered);
-      })
-      .catch(e => {
-        console.log(e);
-      })
+    axios.get('/data/popular.json')
+      .then(res => setPopular(res.data))
+      .catch(e => console.log(e))
   }, []);
 
   return (
     <div className="px-2 sm:px-4">
       <Carousel />
       <Title title={"What's Popular"}/>
-      <MovieGrid movies={PopularMovies} />
+      <MovieGrid movies={popular} />
       <Title title={"Dong Hua"}/>
-      <MovieGrid movies={PopularMovies} />
+      <MovieGrid movies={popular} />
       
     </div>
   );
