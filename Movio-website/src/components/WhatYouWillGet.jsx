@@ -40,7 +40,7 @@ const WhatYouWillGet = () => {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            What You Will Get
+            Key Features 
           </h2>
           
           <div className="w-24 h-1 rounded-full mx-auto" style={{ backgroundColor: accentColor }}></div>
