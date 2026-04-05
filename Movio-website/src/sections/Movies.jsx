@@ -36,6 +36,7 @@ const Movies = () => {
   
   return (
     <>
+    <title>Movies</title>
       <div className='pt-15 pb-5 sm:pt-20 sm:pb-10 px-2 sm:px-4 w-full h-full'>
         <Title title={"Genre"}/>
         <div className='flex flex-row gap-3 h-20 sm:h-20 px-2 font-[Lexend] overflow-x-auto w-full'>

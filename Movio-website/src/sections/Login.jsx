@@ -79,6 +79,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-[#252527] dark:bg-[#0f1418] flex items-center justify-center pt-16 md:pt-20 px-4">
+      <title>Login</title>
       <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <div className="text-center mb-8">

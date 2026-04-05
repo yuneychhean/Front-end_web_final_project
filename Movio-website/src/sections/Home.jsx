@@ -30,6 +30,9 @@ const Home = () => {
   }, []);
 
   return (
+    <>
+    <title>HomePage</title>
+   
     <div className="px-2 sm:px-4">
       <Carousel />
       <Title title={"What's Popular"}/>
@@ -57,6 +60,7 @@ const Home = () => {
       
       
     </div>
+     </>
   );
 };
 

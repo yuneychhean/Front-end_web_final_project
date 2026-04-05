@@ -19,6 +19,7 @@ const WishList = () => {
   if (!wishlist || wishlist.length === 0) {
     return (
       <div className="max-h-screen bg-[#252527] dark:bg-[#0f1418] pt-20">
+        <title>Wishlist</title>
         <div className="container mx-auto px-4 py-20 text-center">
           <div className="max-w-md mx-auto">
             <Heart size={80} className="text-white/20 mx-auto mb-6" />
@@ -39,6 +40,7 @@ const WishList = () => {
 
   return (
     <div className="min-h-screen bg-[#252527] dark:bg-[#0f1418] pt-20">
+      <title>Wishlist</title>
       <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex flex-wrap justify-between items-center mb-8">
