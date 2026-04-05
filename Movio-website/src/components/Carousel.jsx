@@ -15,7 +15,7 @@ const Carousel = () => {
       title: "Spider-Man Homecoming",
       description:
         "Peter Parker tries to stop Vulture from selling dangerous Chitauri weapons while balancing life as a high school student.",
-      rating: "4.5",
+      rating: "7.4",
       year: "2020",
       time: "140min",
       type: "Action",
@@ -27,7 +27,7 @@ const Carousel = () => {
       title: "Renegade Immortal",
       description:
         "Wang Lin uses a mysterious bead and his ruthless will to become a powerful cultivator and challenge the heavens.",
-      rating: "4.9",
+      rating: "8.8",
       year: "2023",
       time: "133 episodes",
       type: "Action",
@@ -39,7 +39,7 @@ const Carousel = () => {
       title: "Soul Land II",
       description:
         "The story follows Huo Yuhao, an underdog with the rare martial soul, who becomes the host for a million-year-old soul beast named the Daydream Ice Worm.",
-      rating: "4.8",
+      rating: "8.5",
       year: "2023",
       time: "145 episodes",
       type: "Action",
@@ -188,7 +188,7 @@ const Carousel = () => {
               <div className="flex items-center gap-1 sm:gap-2 text-white">
                 <Star className="w-4 h-4 sm:w-5 sm:h-5 text-[#EAB92C] fill-current" />
                 <span className="text-sm sm:text-base font-semibold">{currentMovie.rating}</span>
-                <span className="text-xs sm:text-sm text-white/60">/ 5.0</span>
+                
               </div>
               <div className="w-0.5 h-0.5 sm:w-1 sm:h-1 bg-white/40 rounded-full"></div>
               <div className="text-xs sm:text-sm md:text-base text-white/80">{currentMovie.year}</div>

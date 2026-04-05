@@ -35,14 +35,14 @@ function App() {
           {/* Dynamic route for movie details */}
           <Route path="/:id" element={<MovieDetail />} />
         </Routes>
-      </BrowserRouter>
-
-      
-
       <div className="mt-8 sm:mt-10">
 
         <Footer />
       </div>
+      </BrowserRouter>
+
+      
+
     </div>
   );
 }

@@ -159,10 +159,6 @@ function MovieGrid({ movies, title }) {
 
   return (
     <div className="relative">
-      {/* Optional: Add title if provided */}
-      {title && (
-        <h2 className="text-2xl font-bold mb-4 animate-fade-in">{title}</h2>
-      )}
       
       {/* Carousel Buttons */}
       <button
