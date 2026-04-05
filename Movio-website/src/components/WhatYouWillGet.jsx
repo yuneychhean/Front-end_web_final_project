@@ -35,11 +35,11 @@ const WhatYouWillGet = () => {
   const accentColor = "#18E3B5";
 
   return (
-    <section className="py-16 px-4 md:py-24 bg-white dark:bg-gray-900 transition-colors duration-300">
+    <section className="py-16 px-4 md:py-24 bg-[#252527]  transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold  text-white mb-4">
             Key Features 
           </h2>
           
@@ -51,7 +51,7 @@ const WhatYouWillGet = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-transparent items-center flex flex-col text-center"
+              className="group relative bg-[#252527] dark:bg-gray-800 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-[#18E3B4] hover:border-transparent items-center flex flex-col text-center"
             >
               {/* Icon Container */}
               <div 
@@ -66,7 +66,7 @@ const WhatYouWillGet = () => {
               </div>
               
               {/* Title */}
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+              <h3 className="text-xl font-semibold text-white mb-2">
                 {feature.title}
               </h3>
               
