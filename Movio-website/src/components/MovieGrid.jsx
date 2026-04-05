@@ -218,7 +218,7 @@ function MovieGrid({ movies, title }) {
       {/* Swipeable Movie Grid */}
       <div
         ref={carouselRef}
-        className="flex overflow-x-hidden gap-4 cursor-grab active:cursor-grabbing"
+        className="flex overflow-x-hidden overflow-y-hidden gap-4 cursor-grab active:cursor-grabbing"
         style={{
           scrollbarWidth: 'none',
           msOverflowStyle: 'none',

@@ -18,7 +18,7 @@ const WishList = () => {
 
   if (!wishlist || wishlist.length === 0) {
     return (
-      <div className="min-h-screen bg-[#252527] dark:bg-[#0f1418] pt-20">
+      <div className="max-h-screen bg-[#252527] dark:bg-[#0f1418] pt-20">
         <div className="container mx-auto px-4 py-20 text-center">
           <div className="max-w-md mx-auto">
             <Heart size={80} className="text-white/20 mx-auto mb-6" />
@@ -58,7 +58,7 @@ const WishList = () => {
         </div>
 
         {/* Wishlist Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {wishlist.map((movie) => (
             <div key={movie.id} className="group relative">
               <Link to={`/${movie.id}`} state={{ movie }}>
@@ -96,11 +96,7 @@ const WishList = () => {
                   <h3 className="font-semibold text-white line-clamp-2 group-hover:text-[#18E3B4] transition-colors">
                     {movie.title}
                   </h3>
-                  <div className="flex items-center gap-2 mt-1">
-                    <Star size={12} className="text-yellow-500 fill-current" />
-                    <span className="text-white/60 text-sm">{movie.rating || 'N/A'}</span>
-                    <span className="text-white/40 text-xs">/ 10</span>
-                  </div>
+                  
                   <p className="text-sm text-gray-400 mt-1">{movie.year}</p>
                 </div>
               </Link>

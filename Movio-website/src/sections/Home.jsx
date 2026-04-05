@@ -7,6 +7,7 @@ import axios from "axios";
 import DisplayAllMovie from "../components/DisplayAllMovie";
 import InfiniteSlide from "../components/infiniteSlide";
 import MovieBannerGrid from "../components/MovieBannerGrid";
+import WhatYouWillGet from "../components/WhatYouWillGet";
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -51,6 +52,8 @@ const Home = () => {
 
         <InfiniteSlide/>
       </div>
+      <WhatYouWillGet/>
+      
       
       
     </div>
