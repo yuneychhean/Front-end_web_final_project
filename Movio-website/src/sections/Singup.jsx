@@ -111,6 +111,7 @@ const Signup = () => {
 
   return (
     <div className="min-h-screen bg-[#252527] dark:bg-[#0f1418] flex items-center justify-center pt-16 md:pt-20 px-4">
+      <title>Singup</title>
       <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <div className="text-center mb-8">
@@ -157,7 +158,7 @@ const Signup = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                   className="w-full pl-10 pr-4 py-3 bg-white/5 border border-white/20 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-[#18E3B4] transition-all"
                 />
               </div>

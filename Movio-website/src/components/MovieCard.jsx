@@ -1,8 +1,12 @@
 // components/MovieCard.jsx
 import { Link } from "react-router-dom";
 import { Heart } from 'lucide-react';
+import { useWishlist } from "../context/WishlistContext";
 
 function MovieCard(props) {
+  const { isInWishlist, toggleWishlist } = useWishlist();
+  const inWishlist = isInWishlist(props.id);
+
   return (
     <Link to={`/${props.id}`} state={{ movie: props }}>
       <div className="group relative h-full cursor-pointer">
@@ -27,15 +31,18 @@ function MovieCard(props) {
 
           {/* Favorite Button */}
           <button
-            className="absolute bottom-3 right-3 p-2 bg-[#18E3B5] hover:bg-[#65ffdb] rounded-full transition-colors opacity-0 group-hover:opacity-100 hover:scale-110"
+            className={`absolute bottom-3 right-3 p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 hover:scale-110 ${
+              inWishlist 
+                ? 'bg-[#18E3B5] text-white' 
+                : 'bg-gray-800/80 hover:bg-[#18E3B5] text-gray-400 hover:text-white'
+            }`}
             onClick={(e) => {
-              e.preventDefault(); // Prevent navigation when clicking favorite button
-              e.stopPropagation(); // Stop event from bubbling
-              // Add to wishlist logic here
-              console.log("Added to wishlist:", props.title);
+              e.preventDefault();
+              e.stopPropagation();
+              toggleWishlist(props);
             }}
           >
-            <Heart size={16} />
+            <Heart size={16} className={inWishlist ? 'fill-current' : ''} />
           </button>
         </div>
 

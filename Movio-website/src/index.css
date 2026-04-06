@@ -179,3 +179,47 @@ display: none;  }
   width: 100%;
   height: 100%;
 }
+
+.infinity_container {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.infinity_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 3vw, 3rem); /* Responsive gap */
+  flex-shrink: 0;
+  animation: spins 20s linear infinite;
+}
+
+.infinyty_card {
+  flex: 0 0 auto;
+  width: clamp(150px, 20vw, 300px); /* Responsive width */
+  height: clamp(150px, 20vw, 300px); /* Responsive height */
+}
+
+.infinyty_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes spins {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move by half the width */
+  }
+}
+
+
+
+.infinyty_card {
+  width: 150px;
+  height: 150px;
+}

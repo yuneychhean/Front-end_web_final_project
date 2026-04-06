@@ -48,10 +48,10 @@
     "description": "Wang Lin is a very smart boy with loving parents. Although he and his parents are not cultivators, he has always had the dream of becoming one.",
     "cast": [
       { "name": "Shi Ze Kun", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxOzOlhKmH4rKxcyDygu6CyKvO8RI86I1fQ&s" },
-      { "name": "Lin Mao", "img": "" },
-      { "name": "Feng Sheng", "img": "" }
+      { "name": "Lin Mao", "img": "https://www.chinacenter.net/wp-content/uploads/2024/02/Lin-Mao.jpg" },
+      { "name": "Feng Sheng", "img": "https://p0.pipi.cn/basicdata/25bfd6d7537c69e7aa50157344c6728d17d27.jpg?imageMogr2/crop/!282x400r" }
     ],
-    "director": { "name": "Unknown", "img": "" },
+    "director": { "name": "Shitou Xiong ", "img": "https://p0.pipi.cn/basicdata/54ecde712c98d3be2a313955b226a0af93942.jpg?imageMogr2/crop/!282x400r" },
     "image": "../poster/3.png",
     "banner": "../banner/3.png",
     "trailer": "IcmzYx2eNTg"
@@ -66,10 +66,10 @@
     "duration": "20m per ep",
     "description": "Ten thousand years after the founding of the Tang Sect, the Tang Sect has declined. A new generation of proud talents has emerged.",
     "cast": [
-      { "name": "Liang Da Wei", "img": "" },
-      { "name": "Su Shang Qing", "img": "" }
+      { "name": "Liang Da Wei", "img": "https://image.tmdb.org/t/p/w500/yNXWQKc8K5JJlmsSs1pMhjjAhzj.jpg" },
+      { "name": "Su Shang Qing", "img": "https://myanimelist.net/images/voiceactors/2/49915.jpg" }
     ],
-    "director": { "name": "Shen Leping", "img": "" },
+    "director": { "name": "Shen Leping", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUocblulpOWPqMg7oEdGrpiNz4iFTRBJTPEA&s" },
     "image": "../poster/4.png",
     "banner": "../banner/4.png",
     "trailer": "SV4vzjmJIlA"
@@ -84,11 +84,11 @@
     "duration": "2h 32m",
     "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     "cast": [
-      { "name": "Christian Bale", "img": "" },
-      { "name": "Heath Ledger", "img": "" },
-      { "name": "Aaron Eckhart", "img": "" }
+      { "name": "Christian Bale", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLYsIoHMVs6MU530uo_jfS-bQMgztrveGQg&s" },
+      { "name": "Heath Ledger", "img": "https://s2.r29static.com/bin/entry/add/x,80/1919301/image.jpg" },
+      { "name": "Aaron Eckhart", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnQkzN_EflbE-g3FV4r4wH_PmEnkSkENdNw&s" }
     ],
-    "director": { "name": "Christopher Nolan", "img": "" },
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/5.png",
     "banner": "../banner/5.png",
     "trailer": "EXeTwQWrcwY"
@@ -103,11 +103,11 @@
     "duration": "2h 28m",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
     "cast": [
-      { "name": "Leonardo DiCaprio", "img": "" },
-      { "name": "Joseph Gordon-Levitt", "img": "" },
-      { "name": "Elliot Page", "img": "" }
+      { "name": "Leonardo DiCaprio", "img": "https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" },
+      { "name": "Joseph Gordon-Levitt", "img": "https://m.media-amazon.com/images/M/MV5BMTY3NTk0NDI3Ml5BMl5BanBnXkFtZTgwNDA3NjY0MjE@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Elliot Page", "img": "https://cdn.britannica.com/41/249341-050-E5F7039C/Actor-Elliot-Page-2022.jpg" }
     ],
-    "director": { "name": "Christopher Nolan", "img": "" },
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/6.png",
     "banner": "../banner/6.png",
     "trailer": "YoHD9XEInc0"
@@ -122,11 +122,11 @@
     "duration": "24m per ep",
     "description": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
     "cast": [
-      { "name": "Yuki Kaji", "img": "" },
-      { "name": "Yui Ishikawa", "img": "" },
-      { "name": "Marina Inoue", "img": "" }
+      { "name": "Yuki Kaji", "img": "https://m.media-amazon.com/images/M/MV5BMWQzZmM2MDYtODZiNy00NDk4LWFkMzYtZDcxN2IxNjhiOGQyXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Yui Ishikawa", "img": "https://m.media-amazon.com/images/M/MV5BMTZjYTM1MzQtZThlOC00YTFmLWE0NzUtMzgyYTg4YmUwMDU1XkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Marina Inoue", "img": "https://m.media-amazon.com/images/M/MV5BY2M5OWMzNGMtZDBiNi00ZmZlLTgxNDEtZTI5MjNhNmIzMGU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Tetsurō Araki", "img": "" },
+    "director": { "name": "Tetsurō Araki", "img": "https://pbs.twimg.com/media/EIjBvI6X0AYQCiG.jpg" },
     "image": "../poster/7.png",
     "banner": "../banner/7.png",
     "trailer": "M_OauHnAFc8"
@@ -141,9 +141,9 @@
     "duration": "24m per ep",
     "description": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly.",
     "cast": [
-      { "name": "Natsuki Hanae", "img": "" },
-      { "name": "Akari Kito", "img": "" },
-      { "name": "Hiro Shimono", "img": "" }
+      { "name": "Natsuki Hanae", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjee8XKDoxWrqHNye5eWxLKNABau67P8Bouw&s" },
+      { "name": "Akari Kito", "img": "https://m.media-amazon.com/images/M/MV5BMTJkOTZjNjMtM2Q1MS00ZDA1LTgwYTEtNjI2ZDBhNmZiYTRhXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Hiro Shimono", "img": "https://m.media-amazon.com/images/M/MV5BYjBiYWM0YjUtYjgxOS00ZTIwLWJhN2ItZTc3YjBkMmJlNjYxXkEyXkFqcGc@._V1_.jpg" }
     ],
     "director": { "name": "Haruo Sotozaki", "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSbI0W6QOpHHfyIhwhNdLwh-ocwiAvl_O3URjylOyPe6KDsyH5fb4LdWs6_nalLV-SylEkmtYfg-B68r8Q" },
     "image": "../poster/8.png",
@@ -160,11 +160,11 @@
     "duration": "2h 49m",
     "description": "John Wick uncovers a path to defeating The High Table.",
     "cast": [
-      { "name": "Keanu Reeves", "img": "" },
-      { "name": "Donnie Yen", "img": "" },
-      { "name": "Bill Skarsgård", "img": "" }
+      { "name": "Keanu Reeves", "img": "https://m.media-amazon.com/images/M/MV5BNDEzOTdhNDUtY2EyMy00YTNmLWE5MjItZmRjMmQzYTRlMGRkXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Donnie Yen", "img": "https://m.media-amazon.com/images/M/MV5BYWFkYWE0N2YtOWZkMy00MmJkLWFiNjMtY2NjOWZiYmRjNTkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Bill Skarsgård", "img": "https://resizing.flixster.com/j-TWoUEn0oYkW3Rb0F9WZWbaVHE=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/596590_v9_bb.jpg" }
     ],
-    "director": { "name": "Chad Stahelski", "img": "" },
+    "director": { "name": "Chad Stahelski", "img": "https://resizing.flixster.com/4perzd5xklI1XBXWaXOQi-Hwscw=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/93203_v9_bb.jpg" },
     "image": "../poster/9.png",
     "banner": "../banner/9.png",
     "trailer": "qEVUtrk8_B4"
@@ -179,11 +179,11 @@
     "duration": "3h 0m",
     "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
     "cast": [
-      { "name": "Cillian Murphy", "img": "" },
-      { "name": "Emily Blunt", "img": "" },
-      { "name": "Matt Damon", "img": "" }
+      { "name": "Cillian Murphy", "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg" },
+      { "name": "Emily Blunt", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Emily_Blunt_at_2026_Golden_Globes_01_%28cropped%29.jpg" },
+      { "name": "Matt Damon", "img": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Christopher Nolan", "img": "" },
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/10.png",
     "banner": "../banner/10.png",
     "trailer": "uYPbbksJxIg"
@@ -198,11 +198,11 @@
     "duration": "3h 1m",
     "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. The Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
     "cast": [
-      { "name": "Robert Downey Jr.", "img": "" },
-      { "name": "Chris Evans", "img": "" },
-      { "name": "Mark Ruffalo", "img": "" }
+      { "name": "Robert Downey Jr.", "img": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_.jpg" },
+      { "name": "Chris Evans", "img": "https://m.media-amazon.com/images/M/MV5BNzQ0YWM1ODEtZDFkYy00MGJhLTkwZDUtMzVkZjljODU3ZTRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Mark Ruffalo", "img": "https://m.media-amazon.com/images/M/MV5BM2JiYzA0ZGItNmFhYy00MjIyLWEwN2QtMzRmNDUyNjNiZjBiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Anthony Russo", "img": "" },
+    "director": { "name": "Anthony Russo", "img": "https://resizing.flixster.com/7CSoucrTfKa0_L7NmWe5gKtOTh8=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/303030_v9_bc.jpg" },
     "image": "../poster/11.png",
     "banner": "../banner/11.png",
     "trailer": "TcMBFSGVi1c"
@@ -217,11 +217,11 @@
     "duration": "2h 49m",
     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth faces a catastrophic environmental collapse.",
     "cast": [
-      { "name": "Matthew McConaughey", "img": "" },
-      { "name": "Anne Hathaway", "img": "" },
-      { "name": "Jessica Chastain", "img": "" }
+      { "name": "Matthew McConaughey", "img": "https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_.jpg" },
+      { "name": "Anne Hathaway", "img": "https://m.media-amazon.com/images/M/MV5BNzA0MWI3ZDgtMDVkZS00NTVhLTkwMzQtNmNlODk5MDYzMzFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Jessica Chastain", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMBxFr_-WTzGMMYraDKnNkj2sUA3DhLhV0g&s" }
     ],
-    "director": { "name": "Christopher Nolan", "img": "" },
+    "director": { "name": "Christopher Nolan", "img": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg" },
     "image": "../poster/12.png",
     "banner": "../banner/12.png",
     "trailer": "zSWdZVtXT7E"
@@ -236,11 +236,11 @@
     "duration": "47m per ep",
     "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
     "cast": [
-      { "name": "Bryan Cranston", "img": "" },
-      { "name": "Aaron Paul", "img": "" },
-      { "name": "Anna Gunn", "img": "" }
+      { "name": "Bryan Cranston", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3_teR4QrBfBvYFGVEg2O60dcdcWY6iQUCg&s" },
+      { "name": "Aaron Paul", "img": "https://m.media-amazon.com/images/M/MV5BMTY1OTY5NjI5NV5BMl5BanBnXkFtZTcwODA4MjM0OA@@._V1_.jpg" },
+      { "name": "Anna Gunn", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhMbFOJaUSOJVLgNEJUlnElHObPSMsBOuApQ&s" }
     ],
-    "director": { "name": "Vince Gilligan", "img": "" },
+    "director": { "name": "Vince Gilligan", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Vince_Gilligan_at_53rd_Saturn_Awards_2026-03.jpg/960px-Vince_Gilligan_at_53rd_Saturn_Awards_2026-03.jpg" },
     "image": "../poster/13.png",
     "banner": "../banner/13.png",
     "trailer": "HhesaQXLuRY"
@@ -255,14 +255,14 @@
     "duration": "24m per ep",
     "description": "Monkey D. Luffy sets off on a journey to find the legendary treasure known as the 'One Piece' and become the Pirate King.",
     "cast": [
-      { "name": "Mayumi Tanaka", "img": "" },
-      { "name": "Kazuya Nakai", "img": "" },
-      { "name": "Akemi Okamura", "img": "" }
+      { "name": "Mayumi Tanaka", "img": "https://upload.wikimedia.org/wikipedia/commons/2/28/Mayumi_Tanaka_2023.jpg" },
+      { "name": "Kazuya Nakai", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGqs6m4ll71EExs4QeF6C9sojln_f6YLuCw&s" },
+      { "name": "Akemi Okamura", "img": "https://m.media-amazon.com/images/M/MV5BMTY1MjU1Y2UtNWNkZi00MzAwLTk0ZmUtMjRmYjAxYmI5MjBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Kōnosuke Uda", "img": "" },
+    "director": { "name": "Kōnosuke Uda", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EaE-irGPKSVczZEV33Z5Aa27rZNJgzV9iw&s" },
     "image": "../poster/14.png",
     "banner": "../banner/14.png",
-    "trailer": "MCjMCKMlsq8"
+    "trailer": "YnczpEoeaDM"
   },
   {
     "id": 15,
@@ -274,11 +274,11 @@
     "duration": "24m per ep",
     "description": "A boy swallows a cursed talisman — the finger of a Demon — and becomes part of it, leading him to fight demons alongside jujutsu sorcerers.",
     "cast": [
-      { "name": "Junya Enoki", "img": "" },
-      { "name": "Yūichi Nakamura", "img": "" },
-      { "name": "Asami Seto", "img": "" }
+      { "name": "Junya Enoki", "img": "https://media.themoviedb.org/t/p/w235_and_h235_face/vBnNL3Jqy0zkS3ZgsXZmvDM9Dfz.jpg" },
+      { "name": "Yūichi Nakamura", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJ-Q2_Brf-aFGuOc2ALzmrGouUvxPjjIS8w&s" },
+      { "name": "Asami Seto", "img": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/seto_asami.jpg" }
     ],
-    "director": { "name": "Sunghoo Park", "img": "" },
+    "director": { "name": "Sunghoo Park", "img": "https://m.media-amazon.com/images/M/MV5BMTQxM2JjMWMtZDIzOS00MWI3LTg2ZWQtOGVhMjAyMDA3MWE0XkEyXkFqcGc@._V1_.jpg" },
     "image": "../poster/15.png",
     "banner": "../banner/15.png",
     "trailer": "pkKu9hLT-t8"
@@ -293,11 +293,11 @@
     "duration": "2h 28m",
     "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
     "cast": [
-      { "name": "Tom Holland", "img": "" },
-      { "name": "Zendaya", "img": "" },
-      { "name": "Benedict Cumberbatch", "img": "" }
+      { "name": "Tom Holland", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg/960px-Tom_Holland_during_pro-am_Wentworth_golf_club_2023-2.jpg" },
+      { "name": "Zendaya", "img": "https://cdn.britannica.com/23/264823-050-A938FF2D/zendaya-attends-96th-annual-academy-awards-march-10-2024-hollywood-california-actress-acting.jpg" },
+      { "name": "Benedict Cumberbatch", "img": "https://m.media-amazon.com/images/M/MV5BMjE0MDkzMDQwOF5BMl5BanBnXkFtZTgwOTE1Mjg1MzE@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Jon Watts", "img": "" },
+    "director": { "name": "Jon Watts", "img": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jon_Watts_by_Gage_Skidmore_2.jpg" },
     "image": "../poster/16.png",
     "banner": "../banner/16.png",
     "trailer": "JfVOs4VSpmA"
@@ -312,11 +312,11 @@
     "duration": "2h 35m",
     "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
     "cast": [
-      { "name": "Timothée Chalamet", "img": "" },
-      { "name": "Rebecca Ferguson", "img": "" },
-      { "name": "Oscar Isaac", "img": "" }
+      { "name": "Timothée Chalamet", "img": "https://cdn.britannica.com/36/231936-050-63D849FB/Timothee-Chalamet-2021.jpg" },
+      { "name": "Rebecca Ferguson", "img": "https://m.media-amazon.com/images/M/MV5BMDVlZjIzOTktYzNmZC00MjIzLTk1YTMtMzdlOTFiNzQ3ZGY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Oscar Isaac", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg/960px-Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_%28cropped%29.jpg" }
     ],
-    "director": { "name": "Denis Villeneuve", "img": "" },
+    "director": { "name": "Denis Villeneuve", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg/960px-DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg" },
     "image": "../poster/17.png",
     "banner": "../banner/17.png",
     "trailer": "n9xhJrPXop4"
@@ -331,11 +331,11 @@
     "duration": "2h 46m",
     "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, he must prevent a terrible future.",
     "cast": [
-      { "name": "Timothée Chalamet", "img": "" },
-      { "name": "Zendaya", "img": "" },
-      { "name": "Austin Butler", "img": "" }
+      { "name": "Timothée Chalamet", "img": "https://cdn.britannica.com/36/231936-050-63D849FB/Timothee-Chalamet-2021.jpg" },
+      { "name": "Zendaya", "img": "https://cdn.britannica.com/23/264823-050-A938FF2D/zendaya-attends-96th-annual-academy-awards-march-10-2024-hollywood-california-actress-acting.jpg" },
+      { "name": "Austin Butler", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6n5FOO8ZfTm-kGmAoBEtgM8OQBiL1Y6hVxw&s" }
     ],
-    "director": { "name": "Denis Villeneuve", "img": "" },
+    "director": { "name": "Denis Villeneuve", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg/960px-DVilleneuveRFH121024_%2812_of_23%29_%2854061976489%29_%28cropped%29.jpg" },
     "image": "../poster/18.png",
     "banner": "../banner/18.png",
     "trailer": "Way9Dexny3w"
@@ -350,14 +350,14 @@
     "duration": "23m per ep",
     "description": "Naruto Uzumaki, now two and a half years older, makes a heroic return and continues on his mission to rescue his friend Sasuke and protect his village from the evil Akatsuki organization.",
     "cast": [
-      { "name": "Junko Takeuchi", "img": "" },
-      { "name": "Chie Nakamura", "img": "" },
-      { "name": "Showtaro Morikubo", "img": "" }
+      { "name": "Junko Takeuchi", "img": "https://m.media-amazon.com/images/M/MV5BMWJhZTVkM2ItY2IzNy00Njk4LTg5MDYtY2M1MWRjOWFmYWM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Chie Nakamura", "img": "https://www.detectiveconanworld.com/wiki/images/1/1a/%E4%B8%AD%E6%9D%91%E5%8D%83%E7%B5%B5.jpg" },
+      { "name": "Showtaro Morikubo", "img": "https://static.jojowiki.com/images/8/89/latest/20201102213956/Showtaro_Morikubo_Infobox.jpg" }
     ],
-    "director": { "name": "Hayato Date", "img": "" },
+    "director": { "name": "Hayato Date", "img": "https://preview.redd.it/date-hayato-the-animation-director-for-14-years-thank-you-v0-6it12o4bzuwe1.jpeg?auto=webp&s=f74cdfd60196c2165b0da622d82db9cbde8a83d0" },
     "image": "../poster/19.png",
     "banner": "../banner/19.png",
-    "trailer": "KDifGxImImA"
+    "trailer": "QczGoCmX-pI"
   },
   {
     "id": 20,
@@ -369,11 +369,11 @@
     "duration": "2h 56m",
     "description": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
     "cast": [
-      { "name": "Robert Pattinson", "img": "" },
-      { "name": "Zoë Kravitz", "img": "" },
-      { "name": "Paul Dano", "img": "" }
+      { "name": "Robert Pattinson", "img": "https://m.media-amazon.com/images/M/MV5BNzk0MDQ5OTUxMV5BMl5BanBnXkFtZTcwMDM5ODk5Mg@@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Zoë Kravitz", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Zoe_Kravitz_2020_dvna_studio.jpg/250px-Zoe_Kravitz_2020_dvna_studio.jpg" },
+      { "name": "Paul Dano", "img": "https://m.media-amazon.com/images/M/MV5BMjMwMzE1OTc0OF5BMl5BanBnXkFtZTcwMDU2NTg0Nw@@._V1_.jpg" }
     ],
-    "director": { "name": "Matt Reeves", "img": "" },
+    "director": { "name": "Matt Reeves", "img": "https://m.media-amazon.com/images/M/MV5BZGM4MDM4ODgtMDljYS00Yzc4LThjZjgtZjNmMzRjNjBjMTU4XkEyXkFqcGc@._V1_.jpg" },
     "image": "../poster/20.png",
     "banner": "../banner/20.png",
     "trailer": "mqqft2x_Aa4"
@@ -388,14 +388,14 @@
     "duration": "24m per ep",
     "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes wrong, leaving them in damaged physical forms.",
     "cast": [
-      { "name": "Vic Mignogna", "img": "" },
-      { "name": "Maxey Whitehead", "img": "" },
-      { "name": "Travis Willingham", "img": "" }
+      { "name": "Vic Mignogna", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCPHFTdU4GoQ31xUFvjbZSagp0JkbYQ5-xA&s" },
+      { "name": "Maxey Whitehead", "img": "https://m.media-amazon.com/images/S/pv-target-images/41e792062a9a439a6d5e239aa89286a9c92d9691172d3211073bb4d8a13c97e4.jpg" },
+      { "name": "Travis Willingham", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Travis_Willingham_Photo_Op_GalaxyCon_Raleigh_2025.jpg/960px-Travis_Willingham_Photo_Op_GalaxyCon_Raleigh_2025.jpg" }
     ],
-    "director": { "name": "Yasuhiro Irie", "img": "" },
+    "director": { "name": "Yasuhiro Irie", "img": "https://www.ficzone.com/wp-content/uploads/2017/12/Yasuhiro-Irie.jpg" },
     "image": "../poster/21.png",
     "banner": "../banner/21.png",
-    "trailer": "SizOHAbZ5Xk"
+    "trailer": "AYlksPeSXrs"
   },
   {
     "id": 22,
@@ -407,14 +407,14 @@
     "duration": "23m per ep",
     "description": "Asta and Yuno were abandoned at the same church on the same day. Raised together, they came to know of the Wizard King — a title given to the strongest mage in the kingdom — and promised that they would compete against each other for the position.",
     "cast": [
-      { "name": "Gakuto Kajiwara", "img": "" },
-      { "name": "Nobunaga Shimazaki", "img": "" },
-      { "name": "Konomi Fujimura", "img": "" }
+      { "name": "Gakuto Kajiwara", "img": "https://image.tmdb.org/t/p/w500/5YN5MwjS55zL4zPKNx1JwfZ6bi5.jpg" },
+      { "name": "Nobunaga Shimazaki", "img": "https://m.media-amazon.com/images/M/MV5BNmRiOWYwMzYtNGQ5Yi00YjhiLWI0OGItM2NiMDNiMDIzMTUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Konomi Fujimura", "img": "https://www.animenewsnetwork.com/images/encyc/P119385-1731350547.1365748827.jpg" }
     ],
-    "director": { "name": "Tatsuya Yoshihara", "img": "" },
+    "director": { "name": "Tatsuya Yoshihara", "img": "https://i.namu.wiki/i/oizPFrMNkoobt0cbOvb-2fXNuj5XvG2fyBg_1mPk8l6VRrQEde-EBN_jH5hsaUztz2_7cqqL0Q50a54UdXZaxg.webp" },
     "image": "../poster/22.png",
     "banner": "../banner/22.png",
-    "trailer": "4Q8UqAUaFtk"
+    "trailer": "QwNWY6z93O4"
   },
   {
     "id": 23,
@@ -426,11 +426,11 @@
     "duration": "2h 30m",
     "description": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and protect one of their own. A mission that could mean the end of the Guardians if not successful.",
     "cast": [
-      { "name": "Chris Pratt", "img": "" },
-      { "name": "Zoe Saldaña", "img": "" },
-      { "name": "Bradley Cooper", "img": "" }
+      { "name": "Chris Pratt", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_%283x4_cropped%29.jpg/960px-Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_%283x4_cropped%29.jpg" },
+      { "name": "Zoe Saldaña", "img": "https://resizing.flixster.com/ps1q5PtS8ARS_0ljmq8uxbAUKDo=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/194024_v9_bb.jpg" },
+      { "name": "Bradley Cooper", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_Yg5sgHhhtV_mSrnlmPcFcNnMtDu6zMIZw&s" }
     ],
-    "director": { "name": "James Gunn", "img": "" },
+    "director": { "name": "James Gunn", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/James_Gunn_by_Gage_Skidmore_3.jpg/250px-James_Gunn_by_Gage_Skidmore_3.jpg" },
     "image": "../poster/23.png",
     "banner": "../banner/23.png",
     "trailer": "u3V5KDHRQvk"
@@ -445,33 +445,33 @@
     "duration": "24m per ep",
     "description": "Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage.",
     "cast": [
-      { "name": "Yuto Uemura", "img": "" },
-      { "name": "Naoya Uchida", "img": "" },
-      { "name": "Hiroki Yasumoto", "img": "" }
+      { "name": "Yuto Uemura", "img": "https://www.handthatfeedshq.com/wp-content/uploads/2020/08/Yuto-Uemura.jpg" },
+      { "name": "Naoya Uchida", "img": "https://m.media-amazon.com/images/M/MV5BMzUyYzVhNTYtMjY1NS00NmIxLWI5N2EtZWU4NDNiNTc0NjcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Hiroki Yasumoto", "img": "https://pub-92474f7785774e91a790e086dfa6b2ef.r2.dev/artist/large-cover/sg2qppc4B3lxj8CiEUQYUumaEx3IlivTyS5Bf2Q7.jpg" }
     ],
-    "director": { "name": "Shūhei Yabuta", "img": "" },
+    "director": { "name": "Shūhei Yabuta", "img": "https://image.tmdb.org/t/p/w500/iA6289lz4GxEjMZXSHhQssvlLtx.jpg" },
     "image": "../poster/24.png",
     "banner": "../banner/24.png",
-    "trailer": "vFrjMq4aL-g"
+    "trailer": "H3fS-bZ4e2E"
   },
   {
     "id": 25,
-    "title": "Gladiator II",
-    "year": 2024,
+    "title": "The Revenant",
+    "year": 2015,
     "type": "Movie",
-    "genre": ["Action", "Adventure", "Drama"],
-    "rating": 7.1,
-    "duration": "2h 28m",
-    "description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome.",
+    "genre": ["Adventure", "Drama", "Thriller"],
+    "rating": 8.0,
+    "duration": "2h 36m",
+    "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
     "cast": [
-      { "name": "Paul Mescal", "img": "" },
-      { "name": "Pedro Pascal", "img": "" },
-      { "name": "Denzel Washington", "img": "" }
+      { "name": "Leonardo DiCaprio", "img": "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Tom Hardy", "img": "https://media.gq.com/photos/5e6128d2398289000862596e/master/pass/tom-hardy-lead-840-social.jpg" },
+      { "name": "Domhnall Gleeson", "img": "https://resizing.flixster.com/8absmvJKo7ew_xzOuHJ3Hg6TF1A=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/579579_v9_bd.jpg" }
     ],
-    "director": { "name": "Ridley Scott", "img": "" },
+    "director": { "name": "Alejandro G. Iñárritu", "img": "https://upload.wikimedia.org/wikipedia/commons/0/04/MKr386809_Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_%28Amores_Perros%2C_Cannes_2025%29.jpg" },
     "image": "../poster/25.png",
     "banner": "../banner/25.png",
-    "trailer": "4flDCZKqlAk"
+    "trailer": "LoebZZ8K5N0"
   },
   {
     "id": 26,
@@ -483,14 +483,14 @@
     "duration": "24m per ep",
     "description": "Denji is a young man trapped in poverty, working as a devil hunter to pay off his deceased father's debt to the yakuza. After being killed and reborn as the Chainsaw Man, he joins a government agency to fight devils.",
     "cast": [
-      { "name": "Kikunosuke Toya", "img": "" },
-      { "name": "Tomori Kusunoki", "img": "" },
-      { "name": "Fairouz Ai", "img": "" }
+      { "name": "Kikunosuke Toya", "img": "https://www.animenewsnetwork.com/images/encyc/P222634-2321539915.1659713408.jpg" },
+      { "name": "Tomori Kusunoki", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Tomori_Kusunoki_promoting_Project_Sekai_2nd_anniversary.jpg" },
+      { "name": "Fairouz Ai", "img": "https://static.jojowiki.com/images/thumb/d/da/latest/20230929044615/Fairouz_Ai_Infobox.png/800px-Fairouz_Ai_Infobox.png" }
     ],
-    "director": { "name": "Ryū Nakayama", "img": "" },
+    "director": { "name": "Ryū Nakayama", "img": "https://i.namu.wiki/i/u4bwCzzD_fP8O-k5qMhcoQJIA8_0kmEsC36IyOtOp0jR1kFp6ty5thDlskLHRw5XFZcpCuOpzqb98Wyp1dhPtw.webp" },
     "image": "../poster/26.png",
     "banner": "../banner/26.png",
-    "trailer": "dRBqXim8ixs"
+    "trailer": "v4yLeNt-kCU"
   },
   {
     "id": 27,
@@ -502,11 +502,11 @@
     "duration": "2h 11m",
     "description": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
     "cast": [
-      { "name": "Tom Cruise", "img": "" },
-      { "name": "Jennifer Connelly", "img": "" },
-      { "name": "Miles Teller", "img": "" }
+      { "name": "Tom Cruise", "img": "https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Jennifer Connelly", "img": "https://m.media-amazon.com/images/M/MV5BNGMwYmU3MTAtYjcyOC00NGMzLTgzYzItMTc4YzQwNzNhYjRmXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Miles Teller", "img": "https://resizing.flixster.com/YO0NNgbgA2WKxGbkBl93tF2M_tc=/218x280/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/542782_v9_bd.jpg" }
     ],
-    "director": { "name": "Joseph Kosinski", "img": "" },
+    "director": { "name": "Joseph Kosinski", "img": "https://upload.wikimedia.org/wikipedia/commons/4/45/Joe_Kosinski_by_Gage_Skidmore.jpg" },
     "image": "../poster/27.png",
     "banner": "../banner/27.png",
     "trailer": "qSqVVswa420"
@@ -521,14 +521,14 @@
     "duration": "23m per ep",
     "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and associates, he seeks out his missing father, who is a Hunter himself.",
     "cast": [
-      { "name": "Megumi Han", "img": "" },
-      { "name": "Mariya Ise", "img": "" },
-      { "name": "Cristina Valenzuela", "img": "" }
+      { "name": "Megumi Han", "img": "https://m.media-amazon.com/images/M/MV5BMjM0Mjg1MzMtZDQ5Yy00MDQyLTgxOTUtOTFmZmE5OTQ5YzMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Mariya Ise", "img": "https://i.namu.wiki/i/UDLdlSrxoB4pZ8tJeiwlcc3Kh5l9MzfsutbJjBPf2nXzK5EJlYLaN8_wIjxyxHSKINyq6r2_QpYvbLEEZf2HcQ.webp" },
+      { "name": "Cristina Valenzuela", "img": "https://m.media-amazon.com/images/M/MV5BNDE5NDBmZDktYTgwNC00MTFlLThiMTMtZTEwMmYwYzI5ZmI0XkEyXkFqcGc@._V1_.jpg" }
     ],
-    "director": { "name": "Hiroshi Kōjina", "img": "" },
+    "director": { "name": "Hiroshi Kōjina", "img": "https://www.animenewsnetwork.com/images/encyc/P25764-3695592194.1691866024.jpg" },
     "image": "../poster/28.png",
     "banner": "../banner/28.png",
-    "trailer": "D6Bh2LNu0iE"
+    "trailer": "d6kBeJjTGnY"
   },
   {
     "id": 29,
@@ -540,14 +540,14 @@
     "duration": "2h 43m",
     "description": "Ethan Hunt and his IMF team must track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands.",
     "cast": [
-      { "name": "Tom Cruise", "img": "" },
-      { "name": "Hayley Atwell", "img": "" },
-      { "name": "Ving Rhames", "img": "" }
+      { "name": "Tom Cruise", "img": "https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Hayley Atwell", "img": "https://m.media-amazon.com/images/M/MV5BYjc1YmI2N2MtYTFkYS00NzcxLTlmN2QtOWQ1OWY0MTkxNTQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Ving Rhames", "img": "https://www.televisionacademy.com/files/assets_r/containers/assets/bios/ving-rhames-color-450x600.jpg/975b3ecca67c6c45d26da3c43e50d182/ving-rhames-color-450x600.jpg" }
     ],
-    "director": { "name": "Christopher McQuarrie", "img": "" },
+    "director": { "name": "Christopher McQuarrie", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZww-WkAJ_Sk0b5iaIhIAWqkqgQ3XXBOTCw&s" },
     "image": "../poster/29.png",
     "banner": "../banner/29.png",
-    "trailer": "avz_YoOAMto"
+    "trailer": "avz06PDqDbM"
   },
   {
     "id": 30,
@@ -559,14 +559,14 @@
     "duration": "24m per ep",
     "description": "After the defeat of Majin Buu, a new power awakens and threatens the universe. Goku and his friends must once again take on the challenge of facing extraordinary foes and god-level enemies.",
     "cast": [
-      { "name": "Masako Nozawa", "img": "" },
-      { "name": "Ryō Horikawa", "img": "" },
-      { "name": "Hiromi Tsuru", "img": "" }
+      { "name": "Masako Nozawa", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREk254tbzric_wl-WpuZEDhUVboYLDs9PL-A&s" },
+      { "name": "Ryō Horikawa", "img": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ryo_Horikawa_%2814947949559%29.jpg" },
+      { "name": "Hiromi Tsuru", "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/Hiromi_Tsuru.jpg" }
     ],
-    "director": { "name": "Kimitoshi Chioka", "img": "" },
+    "director": { "name": "Kimitoshi Chioka", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqWqt9883HzmhcQLSO1fx42OxbwQKkHuD6lA&s" },
     "image": "../poster/30.png",
     "banner": "../banner/30.png",
-    "trailer": "FItIoHjQmKo"
+    "trailer": "_DDm-2h8sbw"
   },
   {
     "id": 31,
@@ -578,11 +578,11 @@
     "duration": "2h 23m",
     "description": "Earth's mightiest heroes must come together and learn to fight as a team to stop the mischievous Loki and his alien army from enslaving humanity.",
     "cast": [
-      { "name": "Robert Downey Jr.", "img": "" },
-      { "name": "Chris Evans", "img": "" },
-      { "name": "Scarlett Johansson", "img": "" }
+      { "name": "Robert Downey Jr.", "img": "https://m.media-amazon.com/images/M/MV5BNzg1MTUyNDYxOF5BMl5BanBnXkFtZTgwNTQ4MTE2MjE@._V1_.jpg" },
+      { "name": "Chris Evans", "img": "https://m.media-amazon.com/images/M/MV5BNzQ0YWM1ODEtZDFkYy00MGJhLTkwZDUtMzVkZjljODU3ZTRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Scarlett Johansson", "img": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg" }
     ],
-    "director": { "name": "Joss Whedon", "img": "" },
+    "director": { "name": "Joss Whedon", "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Joss_Whedon_by_Gage_Skidmore_8.jpg" },
     "image": "../poster/31.png",
     "banner": "../banner/31.png",
     "trailer": "eOrNdBpGMv8"
@@ -597,11 +597,11 @@
     "duration": "32-63m per ep",
     "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
     "cast": [
-      { "name": "Lee Jung-jae", "img": "" },
-      { "name": "Park Hae-soo", "img": "" },
-      { "name": "Wi Ha-jun", "img": "" }
+      { "name": "Lee Jung-jae", "img": "https://m.media-amazon.com/images/M/MV5BNzQ4YTczN2UtMGQxYi00YTMxLWI0NTAtNjc3YjYxZDBjMzg3XkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Park Hae-soo", "img": "https://m.media-amazon.com/images/M/MV5BMTU1YWZkNGItZGYzNy00ZDEzLTg2NGEtMjkzZTE2ZDJjZjczXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Wi Ha-jun", "img": "https://m.media-amazon.com/images/M/MV5BODM3NmQ3YTItZGRjYi00YWY5LThmZDYtZDdhYjYwYzIzNmY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Hwang Dong-hyuk", "img": "" },
+    "director": { "name": "Hwang Dong-hyuk", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgCC4VG4JCulfpIW1OX-2j7H4Vokzr15OYPw&s" },
     "image": "../poster/32.png",
     "banner": "../banner/32.png",
     "trailer": "oqxAJKy0ii4"
@@ -616,14 +616,14 @@
     "duration": "24m per ep",
     "description": "In a world where hunters — humans who possess magical abilities — must battle deadly monsters to protect the human race, Sung Jinwoo, the world's weakest hunter, decides to risk his life and enters a high-level dungeon.",
     "cast": [
-      { "name": "Taito Ban", "img": "" },
-      { "name": "Haruna Mikawa", "img": "" },
-      { "name": "Hiroki Tochi", "img": "" }
+      { "name": "Taito Ban", "img": "https://m.media-amazon.com/images/M/MV5BZDNlNTgwMTAtYTI4My00ZDgwLWJmMTItNWUyNTE2M2M3ZDUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Haruna Mikawa", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5oGqQXEvQfX75pIcprViIKAsgPMHTWgRO0A&s" },
+      { "name": "Hiroki Tochi", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCnktpqKJXg-8VjJIx4lc35k78hr2lgHkBWw&s" }
     ],
-    "director": { "name": "Shunsuke Nakashige", "img": "" },
+    "director": { "name": "Shunsuke Nakashige", "img": "https://i.namu.wiki/i/kVUvk73Z1PFac4TAKl9_D3aKfpFpXQhu-jjoUTVpZwj_wQXAxAjdrAYvgG_zw4fTye-xWI3OKGszENOzUOjcZg.webp" },
     "image": "../poster/33.png",
     "banner": "../banner/33.png",
-    "trailer": "ZpBktEhzrW4"
+    "trailer": "bssSj4cKsrI"
   },
   {
     "id": 34,
@@ -635,14 +635,14 @@
     "duration": "1h 59m",
     "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
     "cast": [
-      { "name": "Cailee Spaeny", "img": "" },
-      { "name": "David Jonsson", "img": "" },
-      { "name": "Archie Renaux", "img": "" }
+      { "name": "Cailee Spaeny", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cailee_Spaeny_TIFF_2025_2_%28cropped%29.jpg/960px-Cailee_Spaeny_TIFF_2025_2_%28cropped%29.jpg" },
+      { "name": "David Jonsson", "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/David_Jonsson_by_Gage_Skidmore.jpg/250px-David_Jonsson_by_Gage_Skidmore.jpg" },
+      { "name": "Archie Renaux", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYRnZldcWi2vPEozWg-HKp0HlFxsxQHJNW1Q&s" }
     ],
-    "director": { "name": "Fede Álvarez", "img": "" },
+    "director": { "name": "Fede Álvarez", "img": "https://m.media-amazon.com/images/M/MV5BMzU5YmU3M2QtOGE4OC00MjE5LWJiNTAtNTQwNDQ5MzA1MGZhXkEyXkFqcGc@._V1_.jpg" },
     "image": "../poster/34.png",
     "banner": "../banner/34.png",
-    "trailer": "tCHMdMEeGRU"
+    "trailer": "GTNMt84KT0k"
   },
   {
     "id": 35,
@@ -654,33 +654,33 @@
     "duration": "24m per ep",
     "description": "The Soul Society faces its greatest threat as the Wandenreich, a powerful group of Quincies, launches a massive invasion. Ichigo Kurosaki and the Soul Reapers must fight for survival.",
     "cast": [
-      { "name": "Masakazu Morita", "img": "" },
-      { "name": "Fumiko Orikasa", "img": "" },
-      { "name": "Kentarō Itō", "img": "" }
+      { "name": "Masakazu Morita", "img": "https://m.media-amazon.com/images/M/MV5BOWFhNWU2ZDQtNGIwOC00NWM2LWJjMjctMTMyMmQyMTFiOTA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Fumiko Orikasa", "img": "https://m.media-amazon.com/images/M/MV5BYTQ1ZmI1NDctNGE5Ny00YTgwLTgwOGEtODdkODdlY2I5ZjBhXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Kentarō Itō", "img": "https://static.jojowiki.com/images/thumb/e/e5/latest/20201103044051/Kentaro_Ito_Infobox.png/400px-Kentaro_Ito_Infobox.png" }
     ],
-    "director": { "name": "Tomohisa Taguchi", "img": "" },
+    "director": { "name": "Tomohisa Taguchi", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_b6UmwLFnEWCrmAC0eKbxdnTQAFHcTV_geQ&s" },
     "image": "../poster/35.png",
     "banner": "../banner/35.png",
-    "trailer": "OJH0RfxQFWY"
+    "trailer": "KPL8K8Rfyxc"
   },
   {
     "id": 36,
-    "title": "Black Myth: Wukong (The Movie)",
-    "year": 2024,
+    "title": "Edge of Tomorrow",
+    "year": 2014,
     "type": "Movie",
-    "genre": ["Action", "Fantasy", "Adventure"],
-    "rating": 8.0,
-    "duration": "2h 5m",
-    "description": "Based on the legendary classic 'Journey to the West', an unnamed monkey warrior sets out on a perilous quest to discover the truth about his predecessor, the legendary Sun Wukong.",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 7.9,
+    "duration": "1h 53m",
+    "description": "A soldier fighting aliens gets caught in a time loop, reliving the same day over and over again as he teams up with a special forces warrior to find a way to defeat the extraterrestrial invaders.",
     "cast": [
-      { "name": "Wei Chaohui", "img": "" },
-      { "name": "Zhang Yi", "img": "" },
-      { "name": "Li Xuejian", "img": "" }
+      { "name": "Tom Cruise", "img": "https://m.media-amazon.com/images/M/MV5BMmU1YWU1NmMtMjAyMi00MjFiLWFmZmUtOTc1ZjI5ODkxYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Emily Blunt", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Emily_Blunt_at_2026_Golden_Globes_01_%28cropped%29.jpg" },
+      { "name": "Bill Paxton", "img": "https://m.media-amazon.com/images/M/MV5BNjY2NTQwOTAyNV5BMl5BanBnXkFtZTcwNTUyNjYwMw@@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Feng Xiaogang", "img": "" },
+    "director": { "name": "Doug Liman", "img": "https://m.media-amazon.com/images/M/MV5BODk4MjIwNjU5OF5BMl5BanBnXkFtZTcwODU4Njk1Mw@@._V1_FMjpg_UX1000_.jpg" },
     "image": "../poster/36.png",
     "banner": "../banner/36.png",
-    "trailer": "hG0XaYjXBhA"
+    "trailer": "vw61gCe2oqI"
   },
   {
     "id": 37,
@@ -692,70 +692,67 @@
     "duration": "2h 8m",
     "description": "Deadpool is offered a chance to join the Marvel Cinematic Universe by the Time Variance Authority. He recruits a variant of Wolverine to save his world from extinction.",
     "cast": [
-      { "name": "Ryan Reynolds", "img": "" },
-      { "name": "Hugh Jackman", "img": "" },
-      { "name": "Emma Corrin", "img": "" }
+      { "name": "Ryan Reynolds", "img": "https://m.media-amazon.com/images/M/MV5BMzRiNDhiMDQtYWZkMS00ZjU5LTg5NzUtOTc4NzE2Yzc0ZWUwXkEyXkFqcGc@._V1_.jpg" },
+      { "name": "Hugh Jackman", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrF76vHu4Az1S6SrHvnFrxP4M_zsWoUSNcMQ&s" },
+      { "name": "Emma Corrin", "img": "https://ntvb.tmsimg.com/assets/assets/1221878_v9_bb.jpg?w=360&h=480" }
     ],
-    "director": { "name": "Shawn Levy", "img": "" },
+    "director": { "name": "Shawn Levy", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-nBHyUiDxiUJu4JNdfVaAQVu9uj_FbF4bBA&s" },
     "image": "../poster/37.png",
     "banner": "../banner/37.png",
     "trailer": "73_1biulkYk"
   },
   {
     "id": 38,
-    "title": "Arcane",
-    "year": 2021,
-    "type": "Series",
-    "genre": ["Animation", "Action", "Drama"],
-    "rating": 9.0,
-    "duration": "40m per ep",
-    "description": "Set in the utopian region of Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League of Legends champions and the power that will tear them apart.",
+    "title": "Aquaman and the Lost Kingdom",
+    "year": 2023,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "rating": 6.0,
+    "duration": "2h 4m",
+    "description": "Aquaman forms an uneasy alliance with his brother Orm to protect Atlantis and the world from a devastating ancient power.",
     "cast": [
-      { "name": "Hailee Steinfeld", "img": "" },
-      { "name": "Ella Purnell", "img": "" },
-      { "name": "Kevin Alejandro", "img": "" }
+      { "name": "Jason Momoa", "img": "https://upload.wikimedia.org/wikipedia/commons/2/22/Jason_Momoa_%2843055621224%29_%28cropped%29.jpg" },
+      { "name": "Patrick Wilson", "img": "https://m.media-amazon.com/images/M/MV5BMTkzNzcxNzcxMF5BMl5BanBnXkFtZTgwOTM1ODUzMTE@._V1_FMjpg_UX1000_.jpg" }
     ],
-    "director": { "name": "Pascal Charrue", "img": "" },
+    "director": { "name": "James Wan", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8jc2Xz81F1z8y4uWXpqE1HPAJEQ8ka4ZWIA&s" },
     "image": "../poster/38.png",
     "banner": "../banner/38.png",
-    "trailer": "fXmAurh012s"
+    "trailer": "FV3bqvOHRQo"
   },
   {
     "id": 39,
-    "title": "Kingdom",
-    "year": 2019,
-    "type": "Series",
-    "genre": ["Action", "Drama", "Horror"],
-    "rating": 8.4,
-    "duration": "35-55m per ep",
-    "description": "A crown prince is sent on a suicide mission to investigate a mysterious plague that is turning people into flesh-eating monsters, and uncovers a sinister plot against the throne.",
+    "title": "Kingdom of the Planet of the Apes",
+    "year": 2024,
+    "type": "Movie",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 7.2,
+    "duration": "2h 25m",
+    "description": "Many years after the reign of Caesar, a young ape embarks on a journey that will lead him to question everything he's been taught about the past and make choices that will define the future.",
     "cast": [
-      { "name": "Ju Ji-hoon", "img": "" },
-      { "name": "Bae Doona", "img": "" },
-      { "name": "Ryu Seung-ryong", "img": "" }
+      { "name": "Owen Teague", "img": "https://m.media-amazon.com/images/M/MV5BNmQyYzI0YzgtNTY2Yy00ZWQ3LTkwMmItZGJjMGJhMTk2NTI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Freya Allan", "img": "https://upload.wikimedia.org/wikipedia/commons/6/67/Actress_Freya_Allan_in_2024_%2853704843534%29.jpg" }
     ],
-    "director": { "name": "Kim Seong-hun", "img": "" },
+    "director": { "name": "Wes Ball", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-DYJFNEQ_tCqTP0BkJ_tZZz5m3F_FPZIJA&s" },
     "image": "../poster/39.png",
     "banner": "../banner/39.png",
-    "trailer": "giFZqpRj_jY"
+    "trailer": "XtFI7SNtVpY"
   },
   {
     "id": 40,
-    "title": "Wicked",
+    "title": "Godzilla x Kong: The New Empire",
     "year": 2024,
     "type": "Movie",
-    "genre": ["Drama", "Fantasy", "Musical"],
-    "rating": 7.6,
-    "duration": "2h 40m",
-    "description": "Elphaba, a misunderstood young woman because of her green skin, and Glinda, a popular girl, become unlikely friends at Shiz University in the Land of Oz. Their friendship is tested as they follow different paths.",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "rating": 7.0,
+    "duration": "1h 55m",
+    "description": "Godzilla and Kong face a colossal undiscovered threat hidden within our world, challenging their existence and humanity’s survival.",
     "cast": [
-      { "name": "Cynthia Erivo", "img": "" },
-      { "name": "Ariana Grande", "img": "" },
-      { "name": "Jeff Goldblum", "img": "" }
+      { "name": "Rebecca Hall", "img": "https://m.media-amazon.com/images/M/MV5BNjkzODU4MTQ4OV5BMl5BanBnXkFtZTcwNDU0MTA4NA@@._V1_FMjpg_UX1000_.jpg" },
+      { "name": "Brian Tyree Henry", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-HMBiQh4SUoenzZOWbNxQ4Dc5oalGtq-ng&s" }
     ],
-    "director": { "name": "Jon M. Chu", "img": "" },
+    "director": { "name": "Adam Wingard", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6tIjJvJmrDkRXBua-xEeFGiGebLL9HYUgA&s" },
     "image": "../poster/40.png",
     "banner": "../banner/40.png",
-    "trailer": "6COmYeLsz4c"
+    "trailer": "qqrpMRDuPfc"
   }
 ]

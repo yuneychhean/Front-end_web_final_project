@@ -196,21 +196,21 @@ const SearchDropdown = () => {
                     </div>
                   </div>
                 ) : searchResults.length > 0 ? (
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
                     {searchResults.map((result) => (
 
-                      <Link to={`/${result.id}`}>
+                      <Link to={`/${result.id}`}> 
                         <button
                         
                           key={result.id}
                           onClick={() => handleResultClick(result)}
-                          className="flex items-center gap-4 p-4 bg-[#1a1a1c] dark:bg-black/30 hover:bg-[#2f6078]/40 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl group"
+                          className="flex items-center gap-4 p-4 bg-[#1a1a1c] dark:bg-black/30 hover:bg-[#2f6078]/40 rounded-xl transition-all duration-300 transform hover:scale-102 hover:shadow-xl group w-full"
                         >
                           <div className="w-12 h-16 bg-gradient-to-br from-[#18E3B4]/20 to-transparent rounded-lg flex items-center justify-center overflow-hidden">
                             {result.image ? (
                               <img src={result.image} alt={result.title} className="w-full h-full object-cover" />
                             ) : (
-                              <Search size={20} className="text-[#18E3B4]" />
+                              <Search size={30} className="text-[#18E3B4]" />
                             )}
                           </div>
                           <div className="flex-1 text-left">

@@ -1,8 +1,13 @@
 import React from 'react'
-
+import Title from '../components/Title';
+import DisplayPopularMovie from '../components/DisplayPopularMovie';
 const Popular = () => {
   return (
-    <div>Popular</div>
+    <div className='pt-18 sm:pt-20 sm:pb-20 px-4 sm:px-10'>
+      <title>Popular</title>
+      <Title title={'Popular Movie'}/>
+      <DisplayPopularMovie />
+    </div>
   )
 }
 
